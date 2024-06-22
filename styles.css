@@ -18,11 +18,6 @@ body {
     text-align: center;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-
-}
 .logo-container {
     display: flex;
     align-items: center;
@@ -41,10 +36,6 @@ body {
     font-weight: bold;
     margin: 0;
     letter-spacing: 0.1em;
-}
-.header img {
-    width: 50px;
-    height: 50px;
 }
 
 h1 {
