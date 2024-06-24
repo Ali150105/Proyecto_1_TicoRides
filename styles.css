@@ -224,25 +224,6 @@ button[type="submit"] {
     text-decoration: none;
 }
 
-footer {
-    position: absolute;
-    bottom: 10px;
-    text-align: center;
-    width: 100%;
-    color: #000000;
-    font-size: 14px;
-}
-
-footer a {
-    margin: 0 10px;
-    color: #73c527;
-    text-decoration: none;
-}
-
-footer p {
-    margin-top: 10px;
-}
-
 /*login*/
 .gsi-material-button {
     display: flex;
