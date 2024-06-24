@@ -177,28 +177,35 @@ h2 {
 }
 
 .login-container .boton-google {
-    width: 100%;
-    padding: 10px;
-    background-color: #515153;;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #515153;
+    color: white;
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+    display: block;
     text-decoration: none;
-    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px #999;
+    transition: background-color 0.3s;
 }
 
 .google-login {
-    background-color: #515153;;
-    color: rgb(245, 238, 238);
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
+    background-color: #515153;
+    color: white;
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
     font-size: 16px;
+    width: 25%;
     cursor: pointer;
-    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 4px #999;
+    transition: background-color 0.3s;
 }
 
 .google-login img {
@@ -212,16 +219,19 @@ h2 {
 }
 
 .login-container .boton {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #515153;
+    color: white;
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+    display: block;
     text-decoration: none;
-    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px #999;
+    transition: background-color 0.3s;
 }
 
 .login-container .boton:hover {
