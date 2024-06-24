@@ -18,12 +18,23 @@ body {
     text-align: center;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     font-family: 'Arial', sans-serif;
+}
+
+.logo-container img {
+    height: 50px;
+    margin-right: 10px;
 }
 
 .logo-container h1 {
@@ -33,9 +44,44 @@ body {
     letter-spacing: 0.1em;
 }
 
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-row {
+    display: flex;
+}
+
 .form-group {
     margin-bottom: 15px;
     text-align: left;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
 }
 
 .form-group input,
@@ -45,6 +91,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     display: block;
+    margin-right: 0;
     background-color: #f9f9f9;
     font-size: 16px;
 }
@@ -56,7 +103,22 @@ body {
     outline: none;
 }
 
-.button {
+.form-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-links p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.form-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.boton {
     background-color: #3939f3;
     color: white;
     padding: 5px 10px;
@@ -72,18 +134,14 @@ body {
     transition: background-color 0.3s;
 }
 
-.button:hover {
-    background-color: #3939f3;
+
+.boton:hover {
+    background-color: #515153;
 }
 
-.button:active {
-    background-color: #3939f3;
+.boton:active {
+    background-color: #515153;
     transform: translateY(2px);
-}
-
-.or {
-    margin: 10px 0;
-    color: #000000;
 }
 
 footer {
