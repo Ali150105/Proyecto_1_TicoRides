@@ -143,35 +143,6 @@ h2 {
     transform: translateY(2px);
 }
 
-footer {
-    width: 100%;
-    padding: 20px;
-    background-color: #fff;
-    text-align: center;
-    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
-}
-
-footer nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-footer nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-footer p {
-    font-size: 14px;
-    color: #777;
-}
-
 /*Login*/
 
 .login-container {
@@ -199,7 +170,7 @@ footer p {
 }
 
 .google-login {
-    background-color: #73c527;
+    background-color:  #3939f3;
     color: rgb(0, 0, 0);
     padding: 10px;
     border: none;
@@ -234,7 +205,7 @@ input {
 }
 
 button[type="submit"] {
-    background-color: #73c527;
+    background-color:  #3939f3;
     color: rgb(0, 0, 0);
     padding: 10px;
     border: none;
@@ -249,27 +220,8 @@ button[type="submit"] {
 }
 
 .register a {
-    color: #73c527;
+    color:  #3939f3;
     text-decoration: none;
-}
-
-footer {
-    position: absolute;
-    bottom: 10px;
-    text-align: center;
-    width: 100%;
-    color: #000000;
-    font-size: 14px;
-}
-
-footer a {
-    margin: 0 10px;
-    color: #73c527;
-    text-decoration: none;
-}
-
-footer p {
-    margin-top: 10px;
 }
 
 /*login*/
@@ -303,16 +255,16 @@ footer p {
     max-width: 400px;
     min-width: min-content;
     margin: 0 auto;
-  }
-  
-  .gsi-material-button .gsi-material-button-icon {
+}
+
+.gsi-material-button .gsi-material-button-icon {
     height: 20px;
     margin-right: 12px;
     min-width: 20px;
     width: 20px;
-  }
-  
-  .gsi-material-button .gsi-material-button-content-wrapper {
+}
+
+.gsi-material-button .gsi-material-button-content-wrapper {
     -webkit-align-items: center;
     align-items: center;
     display: flex;
@@ -324,9 +276,9 @@ footer p {
     justify-content: space-between;
     position: relative;
     width: 100%;
-  }
-  
-  .gsi-material-button .gsi-material-button-contents {
+}
+
+.gsi-material-button .gsi-material-button-contents {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     font-family: 'Roboto', arial, sans-serif;
@@ -334,9 +286,9 @@ footer p {
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: top;
-  }
-  
-  .gsi-material-button .gsi-material-button-state {
+}
+
+.gsi-material-button .gsi-material-button-state {
     -webkit-transition: opacity .218s;
     transition: opacity .218s;
     bottom: 0;
@@ -345,37 +297,66 @@ footer p {
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  .gsi-material-button:disabled {
+}
+
+.gsi-material-button:disabled {
     cursor: default;
     background-color: #ffffff61;
-  }
-  
-  .gsi-material-button:disabled .gsi-material-button-state {
+}
+
+.gsi-material-button:disabled .gsi-material-button-state {
     background-color: #1f1f1f1f;
-  }
-  
-  .gsi-material-button:disabled .gsi-material-button-contents {
+}
+
+.gsi-material-button:disabled .gsi-material-button-contents {
     opacity: 38%;
-  }
-  
-  .gsi-material-button:disabled .gsi-material-button-icon {
+}
+
+.gsi-material-button:disabled .gsi-material-button-icon {
     opacity: 38%;
-  }
-  
-  .gsi-material-button:not(:disabled):active .gsi-material-button-state, 
-  .gsi-material-button:not(:disabled):focus .gsi-material-button-state {
+}
+
+.gsi-material-button:not(:disabled):active .gsi-material-button-state,
+.gsi-material-button:not(:disabled):focus .gsi-material-button-state {
     background-color: #001d35;
     opacity: 12%;
-  }
-  
-  .gsi-material-button:not(:disabled):hover {
+}
+
+.gsi-material-button:not(:disabled):hover {
     -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
     box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
-  }
-  
-  .gsi-material-button:not(:disabled):hover .gsi-material-button-state {
+}
+
+.gsi-material-button:not(:disabled):hover .gsi-material-button-state {
     background-color: #001d35;
     opacity: 8%;
-  }
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+}
