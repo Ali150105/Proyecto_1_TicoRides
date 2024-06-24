@@ -13,7 +13,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 50px 0 100px;
+    margin: 50px 0;
     width: 600px;
     text-align: center;
 }
@@ -220,8 +220,27 @@ button[type="submit"] {
 }
 
 .register a {
-    color:  #3939f3;
+    color: #73c527;
     text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    font-size: 14px;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #73c527;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
 }
 
 /*login*/
@@ -334,12 +353,10 @@ button[type="submit"] {
 
 footer {
     width: 100%;
-    padding: 5px;
+    padding: 20px;
     background-color: #fff;
     text-align: center;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    bottom: 0;
 }
 
 footer nav ul {
@@ -362,4 +379,3 @@ footer p {
     font-size: 14px;
     color: #777;
 }
-
