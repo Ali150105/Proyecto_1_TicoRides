@@ -192,14 +192,15 @@ h2 {
 .google-login {
     background-color: #4285F4;
     color: rgb(189, 184, 184);
-    padding: 10px;
+    padding: 5px 10px; /* Ajustar el padding para hacer el botón más pequeño */
     border: none;
     border-radius: 5px;
     width: 100%;
-    font-size: 16px;
+    font-size: 14px; /* Reducir el tamaño del texto */
     cursor: pointer;
     margin-bottom: 10px;
 }
+
 
 .login-container .boton-google img {
     width: 20px;
