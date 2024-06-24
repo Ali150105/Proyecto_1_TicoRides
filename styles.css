@@ -339,7 +339,8 @@ footer {
     text-align: center;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 0;
+    bottom: 0;
+    z-index: 1000; /* Para que esté por encima de otros elementos */
 }
 
 footer nav ul {
@@ -362,3 +363,4 @@ footer p {
     font-size: 14px;
     color: #777;
 }
+
