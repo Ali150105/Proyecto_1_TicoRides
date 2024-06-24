@@ -190,16 +190,15 @@ h2 {
 }
 
 .google-login {
-    width: 100%;
-    padding: 8px;
-    background-color: #007bff;
+    background-color: #4285F4;
+    color: rgb(189, 184, 184);
+    padding: 10px;
     border: none;
-    border-radius: 4px;
-    color: #fff;
+    border-radius: 5px;
+    width: 100%;
     font-size: 16px;
     cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .google-login img {
