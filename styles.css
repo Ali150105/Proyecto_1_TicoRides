@@ -179,7 +179,7 @@ h2 {
 .login-container .boton-google {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #515153;;
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -190,7 +190,7 @@ h2 {
 }
 
 .google-login {
-    background-color: #4285F4;
+    background-color: #515153;;
     color: rgb(245, 238, 238);
     padding: 10px;
     border: none;
