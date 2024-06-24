@@ -179,13 +179,12 @@ h2 {
 .login-container .boton-google {
     background-color: #4285F4;
     color: rgb(189, 184, 184);
-    padding: 10px;
+    padding: 8px 16px; /* Ajuste el padding para hacerlo más pequeño */
     border: none;
     border-radius: 4px;
     width: 100%;
-    font-size: 16px;
+    font-size: 14px; /* Reduzca el tamaño de la fuente */
     cursor: pointer;
-
 }
 
 .google-login img {
