@@ -340,7 +340,6 @@ footer {
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     bottom: 0;
-    z-index: 1000; /* Para que esté por encima de otros elementos */
 }
 
 footer nav ul {
