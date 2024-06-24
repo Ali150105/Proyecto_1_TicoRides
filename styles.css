@@ -204,10 +204,6 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -webkit-appearance: none;
     background-color: #f2f2f2;
     background-image: none;
     border: none;
