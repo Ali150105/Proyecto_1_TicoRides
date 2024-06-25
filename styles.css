@@ -155,6 +155,16 @@ h2 {
     margin-bottom: 10px;
 }
 
+.or {
+    margin: 10px 0;
+    color: #000000;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* Boton de google*/
 .gsi-material-button {
     display: flex;
