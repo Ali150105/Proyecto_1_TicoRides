@@ -143,6 +143,18 @@ h2 {
     transform: translateY(2px);
 }
 
+.google-login {
+    background-color: #515153;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
 /* Boton de google*/
 .gsi-material-button {
     display: flex;
