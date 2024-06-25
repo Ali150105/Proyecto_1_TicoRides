@@ -30,8 +30,16 @@ body {
 }
 
 .register a {
-    color: #2739da;
-    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #757575;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
 }
 
 
