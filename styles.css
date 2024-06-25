@@ -22,8 +22,18 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-
 }
+
+.register {
+    margin-top: 15px;
+    color: #000000;
+}
+
+.register a {
+    color: #73c527;
+    text-decoration: none;
+}
+
 
 .login-container {
     background-color: #f5f5f7;
