@@ -25,14 +25,14 @@ body {
 
 }
 .login-container {
-    background-color: #fff;
+    background-color: #3f3cf4;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 50px 0;
     width: 600px;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid #2739da;
 }
 
 .logo-container {
