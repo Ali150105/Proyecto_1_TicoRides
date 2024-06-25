@@ -309,25 +309,37 @@ footer {
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items:flex-end;
+    justify-content: center;
 }
 
 footer nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
 }
 
 footer nav ul li {
-    display: inline;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
     margin: 0 10px;
 }
 
 footer nav ul li a {
     text-decoration: none;
     color: #333;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
 }
 
 footer p {
     font-size: 14px;
     color: #777;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
 }
