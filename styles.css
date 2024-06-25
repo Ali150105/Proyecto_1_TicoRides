@@ -1,12 +1,14 @@
 body {
-    border: 1px solid #3c4cf6;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 50px auto;
-    max-width: 600px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
+
 .container {
     background-color: #fff;
     padding: 20px;
@@ -21,6 +23,16 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+    width: 600px;
+    text-align: center;
+    border: 1px solid #ccc;
 }
 
 .logo-container {
