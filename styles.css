@@ -302,13 +302,14 @@ main {
 
 footer {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
     text-align: center;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     bottom: 0;
     left: 0;
+    font-size: 12px;
 }
 
 footer nav ul {
@@ -321,7 +322,7 @@ footer nav ul {
 }
 
 footer nav ul li {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 footer nav ul li a {
@@ -330,6 +331,6 @@ footer nav ul li a {
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 12px;
     color: #777;
 }
