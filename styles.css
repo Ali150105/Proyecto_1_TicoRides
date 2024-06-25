@@ -78,9 +78,8 @@ h2 {
 }
 
 .form-group label {
-    display: block;
+    text-align: left;
     margin-bottom: 5px;
-    font-size: 14px;
     color: #333;
 }
 
@@ -93,6 +92,15 @@ h2 {
     display: block;
     margin-right: 0;
     background-color: #f9f9f9;
+    font-size: 16px;
+}
+button[type="submit"] {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     font-size: 16px;
 }
 
@@ -119,7 +127,7 @@ h2 {
 }
 
 .boton {
-    background-color: #515153;
+    background-color: #007bff;
     color: white;
     padding: 5px 10px;
     margin: auto;
@@ -135,16 +143,16 @@ h2 {
 }
 
 .boton:hover {
-    background-color: #515153;
+    background-color: #007bff;
 }
 
 .boton:active {
-    background-color: #515153;
+    background-color: #007bff;
     transform: translateY(2px);
 }
 
 .google-login {
-    background-color: #515153;
+    background-color: #007bff;
     color: rgb(0, 0, 0);
     padding: 10px;
     border: none;
@@ -170,7 +178,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #007bff;
     background-image: none;
     border: none;
     -webkit-border-radius: 20px;
