@@ -9,6 +9,83 @@ body {
     margin: 0;
 }
 
+/* Header */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Main */
+main {
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+/* Titles */
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Container Rides */
+.container-rides {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ride {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.ride-info {
+    margin-bottom: 10px;
+}
+
+/* Container & Login Container */
 .container, .login-container {
     background-color: #ffffff;
     padding: 20px;
@@ -19,11 +96,11 @@ body {
     text-align: center;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
+.login-container {
+    border: 1px solid #2739da;
 }
 
+/* Register */
 .register {
     margin-top: 15px;
     color: #000000;
@@ -34,6 +111,7 @@ body {
     text-decoration: none;
 }
 
+/* Buttons */
 button[type="submit"], .boton {
     background-color: #444444;
     color: white;
@@ -59,10 +137,7 @@ button[type="submit"]:active, .boton:active {
     transform: translateY(2px);
 }
 
-.login-container {
-    border: 1px solid #2739da;
-}
-
+/* Logo Container */
 .logo-container {
     display: flex;
     align-items: center;
@@ -90,22 +165,11 @@ button[type="submit"]:active, .boton:active {
     letter-spacing: 0.1em;
 }
 
-.header img {
-    width: 50px;
-    height: 50px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: normal;
-}
-
-h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos en el formulario */
 }
 
 .form-row {
@@ -151,6 +215,7 @@ h2 {
     outline: none;
 }
 
+/* Form Links */
 .form-links {
     display: flex;
     justify-content: space-between;
@@ -166,6 +231,7 @@ h2 {
     text-decoration: none;
 }
 
+/* Buttons (Other) */
 .btn1 {
     align-items: center;
     justify-content: center;
@@ -183,12 +249,14 @@ h2 {
     background-color: #f5f5f5;
 }
 
+/* Google Logo */
 .google-logo {
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
 
+/* Input */
 input {
     padding: 10px;
     margin-bottom: 15px;
@@ -196,17 +264,13 @@ input {
     border-radius: 5px;
 }
 
+/* Or */
 .or {
     margin: 10px 0;
     color: #000000;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrar elementos en el formulario */
-}
-
+/* Label */
 label {
     margin-bottom: 5px;
     color: #333;
@@ -216,10 +280,7 @@ label {
     text-align: center; /* Centrar los labels */
 }
 
-main {
-    flex: 1 0 auto;
-}
-
+/* Footer */
 footer {
     width: 100%;
     padding: 10px;
