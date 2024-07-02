@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,8 +9,8 @@ body {
     margin: 0;
 }
 
-.container {
-    background-color: #fff;
+.container, .login-container {
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -33,30 +33,33 @@ body {
     color: #2739da;
     text-decoration: none;
 }
-button[type="submit"] {
-    background-color: #007bff;
+
+button[type="submit"], .boton {
+    background-color: #444444;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 0;
     margin: auto;
     text-align: center;
     display: block;
     text-decoration: none;
     font-size: 16px;
-    width: 25%;
+    width: 150px;
     cursor: pointer;
     border: none;
     box-shadow: 0 4px #999;
     transition: background-color 0.3s;
 }
 
+button[type="submit"]:hover, .boton:hover {
+    background-color: #333333;
+}
+
+button[type="submit"]:active, .boton:active {
+    background-color: #333333;
+    transform: translateY(2px);
+}
+
 .login-container {
-    background-color: #f5f5f7;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 50px 0;
-    width: 600px;
-    text-align: center;
     border: 1px solid #2739da;
 }
 
@@ -107,6 +110,7 @@ h2 {
 
 .form-row {
     display: flex;
+    justify-content: space-between;
 }
 
 .form-group {
@@ -160,35 +164,10 @@ h2 {
     text-decoration: none;
 }
 
-.boton {
-    background-color: #007bff;
-    color: white;
-    padding: 5px 10px;
-    margin: auto;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    font-size: 16px;
-    width: 25%;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0 4px #999;
-    transition: background-color 0.3s;
-}
-
-.boton:hover {
-    background-color: #007bff;
-}
-
-.boton:active {
-    background-color: #007bff;
-    transform: translateY(2px);
-}
-
 .btn1 {
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #757575;
     border: 1px solid #ddd;
     padding: 10px 20px;
@@ -197,7 +176,6 @@ h2 {
     transition: background-color 0.3s ease;
     margin: auto;
 }
-
 
 .btn1:hover {
     background-color: #f5f5f5;
@@ -214,16 +192,6 @@ input {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-button[type="submit"] {
-    background-color: #007bff;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
 }
 
 .or {
@@ -249,7 +217,7 @@ main {
 footer {
     width: 100%;
     padding: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     text-align: center;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
     position: relative;
