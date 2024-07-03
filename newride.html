@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alison Alfaro Arias">
+    <title>Aventones - New Ride</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Aventones Logo">
+            <h1>AVENTONES</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="rides.html" class="active">Rides</a></li>
+                <li><a href="Booking.html">Bookings</a></li>
+            </ul>
+        </nav>
+        <div class="search-user-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <div class="user-icon">
+                <img src="user.png" alt="User Icon">
+                <div class="dropdown-content">
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>New Ride</h2>
+        <form class="ride-form">
+            <div class="form-group">
+                <label for="departure">Departure from</label>
+                <input type="text" id="departure" name="departure">
+            </div>
+            <div class="form-group">
+                <label for="arrival">Arrive To</label>
+                <input type="text" id="arrival" name="arrival">
+            </div>
+            <div class="form-group">
+                <label>Days</label>
+                <div class="days">
+                    <label><input type="checkbox" name="days" value="Mon"> Mon</label>
+                    <label><input type="checkbox" name="days" value="Tue"> Tue</label>
+                    <label><input type="checkbox" name="days" value="Wed"> Wed</label>
+                    <label><input type="checkbox" name="days" value="Thu"> Thu</label>
+                    <label><input type="checkbox" name="days" value="Fri"> Fri</label>
+                    <label><input type="checkbox" name="days" value="Sat"> Sat</label>
+                    <label><input type="checkbox" name="days" value="Sun"> Sun</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <select id="time" name="time">
+                        <option value="10:00 am">10:00 am</option>
+                        <!-- More options as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="seats">Seats</label>
+                    <input type="number" id="seats" name="seats" value="2">
+                </div>
+                <div class="form-group">
+                    <label for="fee">Fee</label>
+                    <input type="number" id="fee" name="fee" value="15">
+                </div>
+            </div>
+            <h3>Vehicle Details</h3>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="make">Make</label>
+                    <select id="make" name="make">
+                        <option value="Nissan">Nissan</option>
+                        <!-- More options as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="model">Model</label>
+                    <input type="text" id="model" name="model" value="Car Model">
+                </div>
+                <div class="form-group">
+                    <label for="year">Year</label>
+                    <input type="number" id="year" name="year" value="2020">
+                </div>
+            </div>
+            <div class="form-actions">
+                <a href="#" class="cancel">Cancel</a>
+                <button type="submit" class="create">Create</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="rides.html">Rides</a></li>
+                <li><a href="Booking.html">Bookings</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <p>Aventones.com</p>
+    </footer>
+</body>
+</html>
