@@ -378,3 +378,82 @@ footer p {
     height: auto;
     margin-right: 10px;
 }
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #444;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ccc;
+}
+
+.rides {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ride {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ride .from {
+    font-weight: bold;
+}
+
+.ride .to {
+    font-weight: bold;
+}
+
+.ride .seats {
+    font-size: 14px;
+    color: #666;
+}
+
+.ride .car {
+    font-size: 14px;
+    color: #666;
+}
+
+.ride .fee {
+    font-size: 14px;
+    color: #666;
+}
+
+.ride .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ride .actions button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ride .actions button:hover {
+    background-color: #444;
+}
