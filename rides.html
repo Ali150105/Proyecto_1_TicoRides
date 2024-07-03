@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,81 +10,74 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo-container">
-                <img src="logo.png" alt="Aventones" class="logo">
-                <h1>Aventones</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="rides.html" class="active">Rides</a></li>
+                <li><a href="Booking.html">Bookings</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><img src="user.png" alt="User"></button>
             </div>
-            <nav class="nav">
-                <a href="home.html">Home</a>
-                <a href="rides.html" class="active">Rides</a>
-                <a href="Booking.html">Bookings</a>
-                <div class="search">
-                    <input type="text" placeholder="Search..." class="search-input">
-                    <button class="user-icon"></button>
-                </div>
-            </nav>
-        </div>
+        </nav>
+        <h1>AVENTONES</h1>
     </header>
-    <main class="main">
-        <div class="container">
-            <h2>My rides</h2>
-            <button class="new-ride-btn">New Ride</button>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>From</th>
-                        <th>To</th>
-                        <th>Seats</th>
-                        <th>Car</th>
-                        <th>Fee</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="#">Quesada</a></td>
-                        <td>Alajuela</td>
-                        <td>2</td>
-                        <td>Nissan Pathfinder 2015</td>
-                        <td>$5</td>
-                        <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Quesada</a></td>
-                        <td>Naranjo</td>
-                        <td>1</td>
-                        <td>Toyota Corolla 2020</td>
-                        <td>$10</td>
-                        <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Aguas Zarcas</a></td>
-                        <td>Naranjo</td>
-                        <td>1</td>
-                        <td>Ford Festiva 1990</td>
-                        <td>--</td>
-                        <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <main>
+        <h2>My rides</h2>
+        <button class="new-ride">New Ride</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Seats</th>
+                    <th>Car</th>
+                    <th>Fee</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#">Quesada</a></td>
+                    <td>Alajuela</td>
+                    <td>2</td>
+                    <td>Nissan Pathfinder 2015</td>
+                    <td>$5</td>
+                    <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Quesada</a></td>
+                    <td>Naranjo</td>
+                    <td>1</td>
+                    <td>Toyota Corolla 2020</td>
+                    <td>$10</td>
+                    <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Aguas Zarcas</a></td>
+                    <td>Naranjo</td>
+                    <td>1</td>
+                    <td>Ford Festiva 1980</td>
+                    <td>--</td>
+                    <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="rides.html">Rides</a></li>
-                    <li><a href="Booking.html">Bookings</a></li>
-                    <li><a href="settings.html">Settings</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="register.html">Register</a></li>
-                </ul>
-            </nav>
-            <p>&copy; Aventones.com</p>
-        </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="rides.html">Rides</a></li>
+                <li><a href="Booking.html">Bookings</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <p>&copy; Aventones.com</p>
     </footer>
 </body>
 
