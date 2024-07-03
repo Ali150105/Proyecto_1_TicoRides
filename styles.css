@@ -359,35 +359,6 @@ footer p {
 .p1 {
     color: gray;
 }
-main {
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.filtro {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.filtro label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.filtro input {
-    padding: 5px;
-    border: 1px solid #ccc;
-}
-
-.filtro button {
-    padding: 8px 15px;
-    background-color: #333;
-    color: #fff;
 
 .footer {
     background-color: lightgray;
