@@ -73,9 +73,7 @@ body {
     margin-top: 0;
 }
 
-.table,
-th,
-td {
+.table, th, td {
     border: 1px solid lightslategray;
     border-collapse: collapse;
 }
@@ -85,8 +83,7 @@ td {
     align-content: center;
 }
 
-.th,
-td {
+.th, td {
     padding: 10px;
     text-align: center;
 }
@@ -247,20 +244,14 @@ fieldset {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
-    display: flex;
-    /* Establece el contenedor como flexbox */
-    align-items: center;
-    /* Alinea verticalmente los elementos */
-    flex-wrap: wrap;
-    /* Permite que los elementos se envuelvan si no caben en una línea */
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una línea */
     justify-content: space-between;
 }
 
-.from,
-.to,
-.btn {
-    margin-right: 10px;
-    /* Espacio entre los elementos */
+.from, .to, .btn {
+    margin-right: 10px; /* Espacio entre los elementos */
 }
 
 .inpC {
@@ -268,8 +259,7 @@ fieldset {
     font-size: 14px;
     border: 1px solid black;
     border-radius: 4px;
-    margin-right: 10px;
-    /* Espacio entre los elementos select */
+    margin-right: 10px; /* Espacio entre los elementos select */
 }
 
 .inpC:checked {
@@ -298,9 +288,7 @@ fieldset {
     text-align: center;
 }
 
-.dep,
-.arr,
-.day {
+.dep, .arr, .day {
     margin-bottom: 10px;
 }
 
@@ -323,8 +311,7 @@ fieldset {
     border: 0;
 }
 
-.seat,
-.fee {
+.seat, .fee {
     padding: 5px;
     width: 15%;
 }
@@ -347,13 +334,7 @@ fieldset {
     width: 18%;
 }
 
-.M,
-.T,
-.W,
-.Th,
-.F,
-.S,
-.Su {
+.M, .T, .W, .Th, .F, .S, .Su {
     margin: -20px;
 }
 
@@ -362,10 +343,8 @@ fieldset {
     padding: 10px;
     margin-top: 20px;
     margin: 20%;
-    display: flex;
-    /* Establece el contenedor como flexbox */
-    align-items: center;
-    /* Alinea verticalmente los elementos */
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
     justify-content: space-between;
 }
 
