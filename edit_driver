@@ -132,12 +132,12 @@
         <div class="row">
             <nav>
                 <center>
-                    <a href="Home.html">Home |</a>&nbsp;&nbsp;
-                    <a href="#">Rides |</a>&nbsp;&nbsp;
-                    <a href="#">Bookings |</a>&nbsp;&nbsp;
-                    <a href="#">Settings |</a>&nbsp;&nbsp;
-                    <a href="index.html">Login |</a>&nbsp;&nbsp;
-                    <a href="registro.html">Register |</a>&nbsp;&nbsp;
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="rides.html">Rides</a></li>
+                    <li><a href="Booking.html">Bookings</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
                 </center>
             </nav>
         </div>
