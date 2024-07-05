@@ -1,651 +1,165 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container,
-.login-container {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 50px 0;
-    width: 600px;
-    text-align: center;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-}
-
-.register {
-    margin-top: 15px;
-    color: #000000;
-}
-
-.register a {
-    color: #2739da;
-    text-decoration: none;
-}
-
-button[type="submit"],
-.boton {
-    background-color: #444444;
-    color: white;
-    padding: 10px 0;
-    margin: auto;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    font-size: 16px;
-    width: 150px;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0 4px #999;
-    transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover,
-.boton:hover {
-    background-color: #333333;
-}
-
-button[type="submit"]:active,
-.boton:active {
-    background-color: #333333;
-    transform: translateY(2px);
-}
-
-.login-container {
-    border: 1px solid #2739da;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto 20px auto;
-    max-width: 80%;
-    height: auto;
-}
-
-.logo-container img {
-    height: 50px;
-    margin-right: 10px;
-}
-
-.logo-container h1 {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 0;
-    letter-spacing: 0.1em;
-}
-
-.header img {
-    width: 50px;
-    height: 50px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: normal;
-}
-
-h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-}
-
-.form-row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.form-group {
-    margin-bottom: 15px;
-    text-align: left;
-    flex: 1;
-    margin-right: 10px;
-}
-
-.form-group:last-child {
-    margin-right: 0;
-}
-
-.form-group label {
-    text-align: left;
-    margin-bottom: 5px;
-    color: #333;
-    display: block;
-    width: calc(100% - 20px);
-}
-
-.form-group input,
-.form-group select {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: block;
-    margin-right: 0;
     background-color: #f9f9f9;
-    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-.form-group input:focus,
-.form-group select:focus {
-    border-color: #007bff;
-    background-color: #fff;
-    outline: none;
-}
-
-.form-links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.form-links p {
-    margin: 5px 0;
-    font-size: 14px;
-}
-
-.form-links a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.btn1 {
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    color: #757575;
-    border: 1px solid #ddd;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin: auto;
-}
-
-.btn1:hover {
-    background-color: #f5f5f5;
-}
-
-.google-logo {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-input {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.or {
-    margin: 10px 0;
-    color: #000000;
-}
-
-main {
-    flex: 1 0 auto;
-}
-
-footer {
+.container {
     width: 100%;
-    padding: 10px;
-    background-color: #ffffff;
-    text-align: center;
-    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    bottom: 0;
-    left: 0;
-    font-size: 12px;
-}
-
-footer nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer nav ul li {
-    margin: 0 5px;
-}
-
-footer nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-footer p {
-    font-size: 12px;
-    color: #777;
-}
-
-/* Estilos específicos para el formulario de login */
-.login-container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-container label {
-    font-size: 12px;
-    text-align: center;
-    width: auto;
-}
-
-.principal {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 20px;
-}
-
-.cont {
-    background-color: lightgray;
-    width: 100%;
-}
-
-.text {
-    color: black;
-    padding-left: 20px;
-}
-
-.text h1 {
-    font-size: 2em;
-}
-
-.search-input {
-    border-radius: 5px;
-    width: 20%;
-    color: gray;
-}
-
-.imagen img {
-    max-width: 100%;
-    height: auto;
-}
-
-.nav-link {
-    background-color: transparent;
-    padding: 15px 25px;
-    color: gray;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 10px;
-    border: 0px;
-}
-
-.nav-link:hover {
-    background-color: blue;
-    color: white;
-}
-
-.informacion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-}
-
-.informacion h1 {
-    color: gray;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.informacion p {
-    text-align: center;
-    color: lightgray;
-    margin-top: 0;
-}
-
-/* CSS adicional para la sección de "My Rides" */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-}
-
-header {
-    background-color: white;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-nav ul li a.active {
-    color: #007bff;
-}
-
-.search-bar {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-}
-
-.search-bar input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.search-bar button {
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    margin-left: 5px;
-}
-
-.search-bar button img {
-    width: 20px;
-    height: 20px;
-}
-
-h1 {
-    font-size: 24px;
-    text-align: center;
-    margin: 20px 0;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-h2 {
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.new-ride {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-table {
-    width: 80%;
+    max-width: 800px;
     margin: 0 auto;
-    border-collapse: collapse;
+    padding: 20px;
 }
 
-table,
-th,
-td {
-    border: 1px solid #ccc;
-}
-
-th,
-td {
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-footer {
-    background-color: white;
-    border-top: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    color: #666;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Estilos adicionales específicos para la sección de viajes */
-.rides-container {
-    width: 80%;
-    max-width: 1000px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.rides-container h2 {
+/* User Registration Form */
+.user-registration {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
 }
 
-.table {
+.user-registration h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-registration input[type="text"],
+.user-registration input[type="email"],
+.user-registration input[type="password"],
+.user-registration input[type="tel"],
+.user-registration select {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.user-registration input[type="submit"] {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.table th,
-.table td {
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-.table th {
-    background-color: #f5f5f5;
-    text-align: center;
-}
-
-.table td {
-    text-align: center;
-}
-
-.table td a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.table td a:hover {
-    text-decoration: underline;
-}
-
-.new-ride-button {
-    background-color: #007bff;
+    padding: 10px;
+    background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
-.new-ride-button:hover {
-    background-color: #0056b3;
+.user-registration input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
-.search-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.user-registration .links {
+    text-align: center;
     margin-top: 10px;
 }
 
-.search-input {
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.user-registration .links a {
+    color: #007BFF;
+    text-decoration: none;
 }
 
-.user-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin-left: 10px;
+.user-registration .links a:hover {
+    text-decoration: underline;
 }
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/* Login Form */
+.login-form {
+    background-color: #fff;
     padding: 20px;
-}
-
-h2 {
-    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
 }
 
-.ride-form {
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #e6e6e6;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.form-group input, .form-group select {
+.login-form input[type="submit"] {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.days {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.days label {
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
-
-.days input {
-    margin-right: 5px;
-}
-
-.form-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.form-row .form-group {
-    flex: 1;
-}
-
-.form-actions {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     margin-top: 20px;
 }
 
-.form-actions .cancel {
-    color: #007bff;
+.login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.login-form .links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form .links a {
+    color: #007BFF;
     text-decoration: none;
-    margin-right: 20px;
 }
 
-.form-actions .create {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.login-form .links a:hover {
+    text-decoration: underline;
 }
 
-.form-actions .create:hover {
-    background-color: #0056b3;
+/* Rides Table */
+.rides-table {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-footer a {
-    color: #333;
+.rides-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-footer a:hover {
-    color: #007b;
+.rides-table table, .rides-table th, .rides-table td {
+    border: 1px solid #ddd;
 }
 
-footer p {
-    margin: 0;
+.rides-table th, .rides-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.rides-table th {
+    background-color: #f2f2f2;
+}
+
+.rides-table .actions a {
+    margin-right: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.rides-table .actions a:hover {
+    text-decoration: underline;
+}
+
+/* General Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
