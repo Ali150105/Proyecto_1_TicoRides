@@ -1,15 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
+}
+
+main {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 20px;
 }
 
+.container,
 .login-container {
     background-color: #ffffff;
     padding: 20px;
@@ -20,74 +30,19 @@ body {
     text-align: center;
 }
 
-.logo-container {
+.header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
+    flex-direction: column;
 }
 
-.logo {
-    display: block;
-    margin: 0 auto 20px auto;
-    max-width: 80%;
-    height: auto;
-}
-
-.header img {
-    width: 50px;
-    height: 50px;
-}
-
-.form-group {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-.form-group label {
-    text-align: left;
-    margin-bottom: 5px;
-    color: #333;
-    display: block;
-    width: 100%;
-}
-
-.form-group input,
-.form-group select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    font-size: 16px;
-}
-
-.form-group input:focus,
-.form-group select:focus {
-    border-color: #007bff;
-    background-color: #fff;
-    outline: none;
-}
-
-.form-links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.form-links p {
-    margin: 5px 0;
-    font-size: 14px;
-}
-
-.form-links a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.or {
-    margin: 10px 0;
+.register {
+    margin-top: 15px;
     color: #000000;
+}
+
+.register a {
+    color: #2739da;
+    text-decoration: none;
 }
 
 button[type="submit"],
@@ -118,32 +73,467 @@ button[type="submit"]:active,
     transform: translateY(2px);
 }
 
-.footer {
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    border-top: 1px solid #ccc;
+.login-container {
+    border: 1px solid #2739da;
 }
 
-.footer p {
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 80%;
+    height: auto;
+}
+
+.logo-container img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    font-size: 2em;
+    font-weight: bold;
     margin: 0;
+    letter-spacing: 0.1em;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+    width: calc(100% - 20px);
+}
+
+.form-group input,
+.form-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin-right: 0;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+}
+
+.form-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-links p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.form-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn1 {
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #757575;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
+}
+
+.btn1:hover {
+    background-color: #f5f5f5;
+}
+
+.google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.or {
+    margin: 10px 0;
+    color: #000000;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    margin-top: auto;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 5px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer p {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Estilos específicos para el formulario de login */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container label {
+    font-size: 12px;
+    text-align: center;
+    width: auto;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.cont {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+
+.search-input {
+    border-radius: 5px;
+    width: 20%;
     color: gray;
 }
 
-.footer nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.imagen img {
+    max-width: 100%;
+    height: auto;
 }
 
-.footer nav ul li {
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.informacion h1 {
+    color: gray;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.informacion p {
+    text-align: center;
+    color: lightgray;
+    margin-top: 0;
+}
+
+/* CSS adicional para la sección de "My Rides" */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #007bff;
+}
+
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.new-ride {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.ride-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ride-card h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.ride-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.actions button {
+    background-color: white;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.actions button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.actions .edit {
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+.actions .edit:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+.actions .delete {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.actions .delete:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.delete-modal-content h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.delete-modal-content p {
+    font-size: 16px;
+}
+
+.delete-modal-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.delete-modal-actions button {
+    background-color: white;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
     margin: 0 10px;
 }
 
-.footer nav ul li a {
-    text-decoration: none;
-    color: black;
+.delete-modal-actions button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete-modal-actions .cancel {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.delete-modal-actions .cancel:hover {
+    background-color: #6c757d;
+    color: white;
 }
