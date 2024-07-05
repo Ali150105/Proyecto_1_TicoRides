@@ -1,23 +1,14 @@
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-}
-
-main {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container,
@@ -216,6 +207,10 @@ input {
     color: #000000;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 footer {
     width: 100%;
     padding: 10px;
@@ -236,15 +231,17 @@ footer nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap; /* Añadido para que los elementos se envuelvan */
 }
 
 footer nav ul li {
-    margin: 0 5px;
+    margin: 5px 10px; /* Espacio entre los elementos */
 }
 
 footer nav ul li a {
     text-decoration: none;
     color: #333;
+    font-size: 12px; /* Ajuste del tamaño de la fuente */
 }
 
 footer p {
@@ -415,126 +412,108 @@ h2 {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
     margin-bottom: 20px;
 }
 
-.ride-card {
-    background-color: white;
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
     border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 20px;
-    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
     text-align: left;
 }
 
-.ride-card h3 {
-    font-size: 20px;
-    margin-top: 0;
-}
-
-.ride-card p {
-    font-size: 16px;
-    margin: 5px 0;
+th {
+    background-color: #f2f2f2;
 }
 
 .actions {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-}
-
-.actions button {
-    background-color: white;
-    border: 1px solid #007bff;
-    color: #007bff;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-.actions button:hover {
-    background-color: #007bff;
-    color: white;
-}
-
-.actions .edit {
-    border-color: #ffc107;
-    color: #ffc107;
-}
-
-.actions .edit:hover {
-    background-color: #ffc107;
-    color: white;
-}
-
-.actions .delete {
-    border-color: #dc3545;
-    color: #dc3545;
-}
-
-.actions .delete:hover {
-    background-color: #dc3545;
-    color: white;
-}
-
-.delete-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.delete-modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 4px;
     text-align: center;
 }
 
-.delete-modal-content h2 {
-    font-size: 24px;
-    margin-top: 0;
-}
-
-.delete-modal-content p {
-    font-size: 16px;
-}
-
-.delete-modal-actions {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.delete-modal-actions button {
-    background-color: white;
-    border: 1px solid #007bff;
-    color: #007bff;
-    padding: 10px 20px;
+.edit-button,
+.delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.delete-button {
+    background-color: #ff0000;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+.add-form {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.add-form input[type="text"],
+.add-form input[type="date"],
+.add-form input[type="time"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px);
+}
+
+.add-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-form button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+    color: gray;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer nav ul li {
     margin: 0 10px;
 }
 
-.delete-modal-actions button:hover {
-    background-color: #007bff;
-    color: white;
-}
-
-.delete-modal-actions .cancel {
-    border-color: #6c757d;
-    color: #6c757d;
-}
-
-.delete-modal-actions .cancel:hover {
-    background-color: #6c757d;
-    color: white;
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
 }
