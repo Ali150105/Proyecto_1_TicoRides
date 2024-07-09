@@ -1,0 +1,246 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.text {
+    color: black;
+    padding-left: 20px;
+
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.line{
+    color: lightgray;
+    text-align: center;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 27.7%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.buscar h1{
+    color: lightslategray;
+    font-size: 25px;
+    font-style: Arial;
+    text-align: center;
+   
+}
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+    margin-right: 20px;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px; /* Espacio entre los elementos */
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 10%;
+    cursor: pointer;
+}
+fieldset {
+    border: 1px solid black;
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+    box-sizing: border-box;
+}
+
+.from, .to, .btn,.inpC {
+    display: inline-block; /* Para que los elementos queden en línea */
+    margin-right: 10px; /* Margen derecho entre los elementos */
+    margin: 10px;
+
+}
+
+.inpC {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 136%;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Days {
+    margin-left: 10px; /* Espacio entre los elementos */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.M, .T, .W, .Th, .F, .S, .Su {
+    margin-left: 10px; /* Espacio entre los elementos */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.destacado{
+    font-weight: bold;
+}
+.table, th, td{
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+}
+.table{
+    border: 1px solid lightslategray; /* Borde para la tabla */
+    border-collapse: collapse; /* Colapsar los bordes de las celdas */
+    border-spacing: 100%; /* Espacio entre las celdas (puedes ajustarlo según tu diseño) */
+    width: 100%; /* Ancho completo de la tabla */
+    margin-left: 1%;
+}
+.th, td{
+    border: 1px solid lightslategray; /* Borde para las celdas */
+    padding: 8px; /* Espacio interno dentro de las celdas */
+}
+.th{
+    background-color: lightgray;
+    text-align: center;
+}
+.td{
+    text-align: center;
+}
+
+
+.td img {
+    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+.mapa{
+    margin-left: 2%;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+.p1{
+    color: lightgray;
+}
+.footer {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}

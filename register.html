@@ -1,104 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Alison Alfaro Arias">
-    <title>User Registration</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width">
+    <title> Registro </title>
+    <link rel="stylesheet" href="register.css">
 </head>
 
 <body>
-    <div class="logo-container">
-        <img src="logo.png" alt="Aventones logo">
-        <h1>AVENTONES</h1>
-    </div>
-    <h2>User Registration</h2>
-    <form>
-        <div class="form-row">
-            <div class="form-group">
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name">
-            </div>
-            <div class="form-group">
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name">
-            </div>
+    <section class="principal">
+        <div class="imagen">
+            <img src="logo.png" alt="logo" style="width: 100px;">
         </div>
-        <div class="form-row">
-            <div class="form-group">
-                <label for="first-name">Identification</label>
-                <input type="id" id="first-name" name="first-name">
-            </div>
-            <div class="form-group">
-                <label for="last-name">Email</label>
-                <input type="email" id="last-name" name="last-name">
-            </div>
+        <div class="text">
+            <h1>AVENTONES</h1>
         </div>
-        <div class="form-row">
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password">
+    </section>
+    <section class="informacion">
+        <div class="registro">
+            <h1> User Registration </h1>
+            <p class="line">____________</p>
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="title">First Name</div>
+                    <input type="text" class="inpt-nombre">
+                </div>
+                <div class="input-group">
+                    <div class="title">Last Name</div>
+                    <input type="text" class="inpt-apellido">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="repeat-password">Repeat Password</label>
-                <input type="password" id="repeat-password" name="repeat-password">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group">
-                <label for="address">Address</label>
-                <input type="text" id="address" name="address">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group">
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="Costa Rica">Costa Rica</option>
-                    <option value="Mexico">Mexico</option>
-                    <option value="Panama">Panama</option>
-                    <option value="Nicaragua">Nicaragua</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="state">State</label>
-                <input type="text" id="state" name="state">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group">
-                <label for="city">City</label>
-                <input type="text" id="city" name="city">
-            </div>
-            <div class="form-group">
-                <label for="phone-number">Phone Number</label>
-                <input type="text" id="phone-number" name="phone-number">
-            </div>
-        </div>
-        <div class="form-links">
-            <p>Already an user? <a href="login.html">Login here</a></p>
-            <p>Register as driver? <a href="driver_registration.html">Click here</a></p>
-        </div>
-        <div>
-            <a href="login.html" class="boton">Sign Up</a>
-        </div>
 
-    </form>
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="rides.html">Rides</a></li>
-                <li><a href="Booking.html">Bookings</a></li>
-                <li><a href="settings.html">Settings</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </nav>
+            <div class="id1"> Identification number </div>
+            <input type="text" class="id">&nbsp;
+
+            <div class="nac"> Birth date </div>
+            <input type="text" class="inpNac">&nbsp;
+
+            <div class="email"> Email </div>
+            <input type="text" class="inpE">&nbsp;
+
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="pass"> Password </div>
+                    <input type="password" class="inpP">
+                </div>
+                <div class="input-group">
+                    <div class="pass"> Repeat Password </div>
+                    <input type="password" class="inpP">
+                </div>
+            </div>
+
+            <div class="address"> Address </div>
+            <input type="text" class="inpA">&nbsp;
+
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="country"> Country </div>
+                    <select class="inpC">
+                        <option value="----" disabled selected>Costa Rica</option>
+                        <option value="MX">México</option>
+                        <option value="PA">Panama</option>
+                        <option value="CL">Colombia</option>
+                        <option value="NC">Nicaragua</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <div class="country"> State </div>
+                    <input type="text" class="inpC">
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="city"> City </div>
+                    <input type="text" class="inpCi">&nbsp;
+                </div>
+                <div class="input-group">
+                    <div class="city"> Phone number </div>
+                    <input type="text" class="inpCi">&nbsp;
+                </div>
+            </div>
+            <div class="register-wrapper">
+                <p class="already-user">Already an user?</p>
+                <button onclick="window.location.href='login.html'" class="btn-info">Login here</button>
+
+                <p class="register-driver"> Register as driver?</p>
+                <button onclick="window.location.href='driver_registration.html'" class="btn-info" id="registerBtn">Click
+                    here</button>
+            </div>
+        </div>
+    </section>
+    <div class="sign">
+        <button onclick="window.location.href='login.html'" class="btn-sign" id="loginBtn">Sign Up</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <p class="p1">
+                    __________________________________________________________________________________________________________________________________________________________
+                </p>
+                <a href="home.html" class="link">Home |</a>&nbsp;&nbsp;
+                <a href="rides.html" class="link">Rides |</a>&nbsp;&nbsp;
+                <a href="Booking.html" class="link">Bookings |</a>&nbsp;&nbsp;
+                <a href="settings.html" class="link">Settings |</a>&nbsp;&nbsp;
+                <a href="login.html" class="link">Login |</a>&nbsp;&nbsp;
+                <a href="register.html" class="link">Register </a>&nbsp;&nbsp;
+            </nav>
+        </div>
+    </div>
+    <div class="footer">
         <p>&copy; Aventones.com</p>
-    </footer>
+    </div>
 </body>
 
 </html>
