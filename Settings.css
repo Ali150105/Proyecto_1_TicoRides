@@ -129,7 +129,7 @@ body {
     justify-content: center;
     text-align: center;
 }
-..footer {
+.footer {
     background-color: white; 
     padding: 10px;
     text-align: center;
@@ -142,7 +142,7 @@ body {
     align-items: center;
   }
   
-  .footer img {
+.footer img {
     max-width: 20px; 
     height: auto;
     margin-right: 10px; 
