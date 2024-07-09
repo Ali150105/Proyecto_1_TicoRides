@@ -172,15 +172,13 @@ a:hover {
 }
 
 .link {
-    color: blue; /* Color del texto normal */
-    margin-left: 33.5%;
-    text-decoration: underline; /* Subrayado por defecto */
+    text-decoration: none;
+    color: gray;
 }
 
 .link:hover {
-    color: blue;
+    color: gray;
 }
-
 .btn {
     font-size: 18px;
     padding: 10px 20px;
