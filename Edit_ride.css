@@ -3,63 +3,47 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
 }
 
 .principal {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: white;
     padding: 20px;
-    width: 80%;
-    max-width: 1200px;
-    margin: 20px;
-    border: 1px solid lightgray;
-    border-radius: 8px;
+    
 }
-
 .text {
     color: black;
-    text-align: center;
+    padding-left: 20px;
 }
 
 .text h1 {
     font-size: 2em;
 }
-
-.search-input {
+.search-input{
     border-radius: 5px;
     width: 20%;
     color: gray;
-    margin: 10px 0;
-    border: 1px solid lightgray;
-    padding: 10px;
 }
-
-.textos, .line {
+.textos{
+    color:gray;
+    text-align: center;
+}
+.line{
     color: gray;
     text-align: center;
 }
-
 .imagen img {
     max-width: 100%;
     height: auto;
 }
-
-.dep, .arr, .day {
+.dep, .arr, .day{
     margin-bottom: 10px;
 }
-
-.day {
-    text-align: center;
+.day{
+    text-align: left;
+    margin-left: 5%;
 }
-
 .nav-link {
     background-color: transparent;
     padding: 15px 25px;
@@ -68,14 +52,10 @@ body {
     text-transform: uppercase;
     border-radius: 10px;
     border: 0px;
-    text-align: center;
 }
-
-.cont {
+.cont{
     background-color: lightgray;
-    text-align: center;
 }
-
 .user-icon {
     position: relative;
     cursor: pointer;
@@ -87,7 +67,7 @@ body {
 
 .opciones {
     position: absolute;
-    right: 0;
+    right: 27.7%;
     background-color: white;
     visibility: hidden;
     opacity: 0;
@@ -104,56 +84,92 @@ body {
     margin-bottom: 0;
     cursor: pointer;
 }
-
-.boton {
+.boton{
     font-size: 12px;
     background-color: white;
     color: black;
     border: 1px solid black;
     width: 100%;
     padding: 12px 42px;
-    text-align: center;
 }
-
-.boton:hover {
+.boton:hover{
     background-color: gray;
 }
-
-.ride {
-    margin: 0 auto;
+.ride{
+    margin: 28%;
     margin-top: 10px;
 }
-
-.row {
+.row{
     display: flex;
     justify-content: center;
     text-align: center;
 }
-
-.time {
+.time{
     border: 1px solid lightgray;
-    width: 100%;
+    width: 165%;
     padding: 10px;
-    text-align: center;
 }
-
-.inp {
+.inp{
     padding: 12px;
-    width: 100%;
+    width: 147%;
     margin-top: 20px;
+}
+.sa{
     text-align: center;
+    margin-left: 75%;
+}
+.sea{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid black;
+    width: 59%;
+    margin-left: 75%;
+
+}
+.fee{
+    padding: 5px;
+    border: 1px solid black;
+    width: 52%;
+    margin-left: 100%;
+
 }
 
-.sa, .sea, .fee, .fe {
-    text-align: center;
-    margin: 0 auto;
+.fe{
+    margin-left: 100%;
 }
 
-.models, .years, .model, .year {
-    margin: 0 auto;
-    text-align: center;
+.inpT{
+    padding: 5px;
+    border: 1px solid lightgray;
+    width: 158%;
+    margin-right: 10px;
 }
-
+.models, .years,.model,.year{
+    margin-left: 60%;
+    margin-right: 50%;
+}
+.models,.model{
+    align-content: center;
+}
+.year,.years{
+    align-content: right;
+}
+.model{
+    padding: 5px;
+    border: 1px solid black;
+    width: 94%;
+    margin-right: 10px;
+}
+.year{
+    padding: 5px;
+    border: 1px solid black;
+    width: 107%;
+    margin-left: 150%;
+}
+.years{
+    margin-left: 150%;
+}
 .nav-link:hover {
     background-color: blue;
     color: white;
@@ -162,27 +178,27 @@ body {
 .input-container {
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center; 
-    margin-bottom: 15px;
+    justify-content: space-between; 
+    margin-bottom: 15px; 
+    margin-left: 5%;
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
-
-.informacion {
+.informacion{
     border: 1px solid lightgray;
     margin: 20px;
     padding: 10px;
     margin-bottom: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    width: 108%;
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
     justify-content: space-between;
+    margin-left: 5%;
 }
-
 .link {
     text-decoration: none;
     color: gray;
@@ -191,59 +207,54 @@ body {
 .link:hover {
     color: gray;
 }
-
 .M, .T, .W, .Th, .F, .S, .Su {
-    margin: 5px;
+    margin-right: 5px; /* Espacio entre los checkboxes */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
-.botones {
+.botones{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    align-items: center; 
 }
-
-.nva {
-    color: blue;
+.nva{
+    color:blue;
+    margin-left:5%;
     cursor: pointer;
-    text-align: center;
 }
-
-.nva:hover {
+.nva:hover{
     color: blue;
 }
-
-.nvs {
-    display: flex;
+.nvs{
+    display: row;
     justify-content: center;
+    width: 34%;
+    margin-left: 90.5%;
     align-items: center;
-    width: 100%;
+    text-align: center;
     background-color: blue;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
     padding: 12px;
     cursor: pointer;
-}
 
-.line {
+}
+.line{
     color: lightgray;
 }
-
-.V {
-    text-align: center;
+.V{
+    text-align: left;
+    margin-left:5%;
 }
-
-.p1 {
+.p1{
     color: lightgray;
 }
-
 .footer {
-    background-color: white;
+    background-color: lightgray;
+    color: gray;
     padding: 10px;
     text-align: center;
-    color: gray;
-    position: fixed;
+    position: block;
     bottom: 0;
     width: 100%;
     display: flex;
@@ -255,151 +266,4 @@ body {
     max-width: 20px;
     height: auto;
     margin-right: 10px;
-}
-
-/* Nuevos estilos basados en la imagen */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.form-group {
-    margin: 10px 0;
-    width: 80%;
-}
-
-input[type="text"], input[type="number"], select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-}
-
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px 0;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.days-checkboxes {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px 0;
-}
-
-.footer-links a {
-    color: gray;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    color: #0056b3;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    background-color: white;
-    border-bottom: 1px solid lightgray;
-}
-
-.header img {
-    height: 50px;
-}
-
-.header nav {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-}
-
-.header nav a {
-    color: gray;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-.header nav a:hover {
-    color: #0056b3;
-    border-bottom: 2px solid #0056b3;
-}
-
-.header .search-container {
-    display: flex;
-    align-items: center;
-}
-
-.header .search-container input {
-    padding: 10px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.header .search-container button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.header .search-container button:hover {
-    background-color: #0056b3;
-}
-
-.user-options {
-    position: relative;
-}
-
-.user-options .dropdown {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-.user-options:hover .dropdown {
-    display: block;
-}
-
-.user-options .dropdown a {
-    color: gray;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.user-options .dropdown a:hover {
-    background-color: #f0f0f0;
 }
