@@ -227,20 +227,20 @@ a:hover{
     color: lightgray;
 }
 .footer {
-    background-color: white;
-    color: gray;
+    background-color: white; 
     padding: 10px;
     text-align: center;
+    color: gray;
     position: block;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.footer img {
-    max-width: 20px;
+  }
+  
+  .footer img {
+    max-width: 20px; 
     height: auto;
-    margin-right: 10px;
-}
+    margin-right: 10px; 
+  }
