@@ -26,36 +26,13 @@ body {
     max-width: 100%;
     height: auto;
 }
-
-.Edicion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-}
-
-.Edicion h1 {
-    font-size: 20px;
-    text-align: center;
-    color: gray;
-}
-
-.line {
+.line{
     color: lightgray;
     text-align: center;
 }
-
-.row {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.cont {
+.cont{
     background-color: lightgray;
 }
-
 .user-icon {
     position: relative;
     cursor: pointer;
@@ -84,8 +61,7 @@ body {
     margin-bottom: 0;
     cursor: pointer;
 }
-
-.boton {
+.boton{
     font-size: 12px;
     background-color: white;
     color: black;
@@ -93,9 +69,26 @@ body {
     width: 100%;
     padding: 12px 42px;
 }
-
-.boton:hover {
+.boton:hover{
     background-color: gray;
+}
+.Edicion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Edicion h1 {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
 }
 
 .nav-link {
@@ -159,43 +152,19 @@ a:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-.inpMo, 
-.inpMa, 
-.inpYe, 
-.inpLi {
-    width: 100%; 
-    padding: 10px; 
-    box-sizing: border-box; 
-    font-size: 16px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-}
-
 .buton {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin: 25%;
-    background-color: white;
-    padding: 20px;
+    align-items: center; 
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
 .link {
-    text-decoration: none;
-    color: gray;
+    color: blue; /* Color del texto normal */
+    margin-left: 33.5%;
+    text-decoration: underline; /* Subrayado por defecto */
 }
 
 .link:hover {
-    color: gray;
+    color: blue;
 }
 
 .btn {
@@ -207,29 +176,27 @@ a:hover {
     color: white;
     border: solid 1px black;
     border-radius: 2px;
-    width: 13%;
+    width: 13.50%;
     cursor: pointer;
 }
-
-.p1 {
+.p1{
     color: lightgray;
 }
-
 .footer {
-    background-color: white; 
+    background-color: white;
+    color: gray;
     padding: 10px;
     text-align: center;
-    color: gray;
     position: block;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .footer img {
-    max-width: 20px; 
+}
+
+.footer img {
+    max-width: 20px;
     height: auto;
-    margin-right: 10px; 
-  }
+    margin-right: 10px;
+}
