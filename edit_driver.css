@@ -3,10 +3,15 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .principal {
     display: flex;
+    flex-direction: column; /* Si los botones están en columnas */
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -96,7 +101,6 @@ body {
     cursor: pointer;
     text-align: center;
     margin: 10px auto; /* Centra los botones horizontalmente */
-    display: inline-block; /* Asegura que se traten como elementos en línea */
 }
 
 .boton:hover,
