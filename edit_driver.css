@@ -91,11 +91,12 @@ body {
     background-color: white;
     color: black;
     border: 1px solid black;
-    width: fit-content; /* Ajusta el ancho del botón */
+    width: fit-content;
     padding: 12px 42px;
     cursor: pointer;
     text-align: center;
     margin: 10px auto; /* Centra los botones horizontalmente */
+    display: inline-block; /* Asegura que se traten como elementos en línea */
 }
 
 .boton:hover,
