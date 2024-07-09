@@ -11,7 +11,8 @@ body {
     box-sizing: border-box;
 }
 
-.container, .login-container {
+.container,
+.login-container {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
@@ -36,7 +37,8 @@ body {
     text-decoration: none;
 }
 
-button[type="submit"], .boton {
+button[type="submit"],
+.boton {
     background-color: #444444;
     color: white;
     padding: 10px 0;
@@ -52,11 +54,13 @@ button[type="submit"], .boton {
     transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover, .boton:hover {
+button[type="submit"]:hover,
+.boton:hover {
     background-color: #333333;
 }
 
-button[type="submit"]:active, .boton:active {
+button[type="submit"]:active,
+.boton:active {
     background-color: #333333;
     transform: translateY(2px);
 }
@@ -197,15 +201,18 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.nva{
-    color:blue;
+
+.nva {
+    color: blue;
     margin-left: 4%;
     cursor: pointer;
 }
-.nva:hover{
+
+.nva:hover {
     color: blue;
 }
-.nvs{
+
+.nvs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,28 +225,32 @@ input {
     margin-right: 7.3%;
     width: 23.5%;
     cursor: pointer;
-
 }
-.V{
+
+.V {
     text-align: left;
     margin-left: 2.5%;
 }
-.model{
+
+.model {
     padding: 5px;
     border: 0;
     width: 26%;
 }
-.year{
+
+.year {
     padding: 5px;
     border: 0;
     width: 11.5%;
 }
-.inpT{
+
+.inpT {
     padding: 5px;
     border: 0;
     width: 16.5%;
 }
-.inp{
+
+.inp {
     padding: 10px;
     height: 40%;
     margin-top: 20px;
@@ -247,38 +258,45 @@ input {
     font-size: 14px;
     border: 0;
 }
-.time{
+
+.time {
     border: 0;
     width: 15%;
 }
-.Days{
+
+.Days {
     font-weight: bold;
     text-align: left;
     margin-left: 5%;
 }
-.fee{
+
+.fee {
     padding: 5px;
     border: 1px solid black;
     width: 52%;
     margin-left: 100%;
-
 }
-.sa{
+
+.sa {
     text-align: center;
     margin-left: 75%;
 }
-.sea{
+
+.sea {
     display: flex;
     justify-content: center;
     padding: 5px;
     border: 1px solid black;
     width: 59%;
     margin-left: 75%;
-
 }
-.dep, .arr, .day{
+
+.dep,
+.arr,
+.day {
     margin-bottom: 10px;
 }
+
 .title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -302,19 +320,23 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .buton {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
+
 .Edicion h1 {
     font-size: 20px;
     text-align: center;
     color: gray;
 }
-.day{
+
+.day {
     text-align: left;
     margin-left: 5%;
 }
+
 .Edicion {
     display: flex;
     justify-content: center;
@@ -322,7 +344,8 @@ input {
     background-color: white;
     padding: 20px;
 }
-.boton{
+
+.boton {
     font-size: 12px;
     background-color: white;
     color: black;
@@ -330,522 +353,121 @@ input {
     width: 100%;
     padding: 12px 42px;
 }
-.boton:hover{
+
+.boton:hover {
     background-color: gray;
 }
 
-.fe{
+.fe {
     margin-left: 100%;
 }
 
-.models, .years,.model,.year{
+.models,
+.years,
+.model,
+.year {
     margin-left: 60%;
     margin-right: 50%;
 }
-.models,.model{
+
+.models,
+.model {
     align-content: center;
 }
-.year,.years{
+
+.year,
+.years {
     align-content: right;
 }
 
-.M, .T, .W, .Th, .F, .S, .Su {
-    margin-right: 5px; /* Espacio entre los checkboxes */
+.M,
+.T,
+.W,
+.Th,
+.F,
+.S,
+.Su {
+    margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.years{
+
+.years {
     margin-left: 150%;
 }
-.botones{
+
+.botones {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
-.sa,.fe,.time1,.make,.mode,.yea,.dep,.arr{
+
+.sa,
+.fe,
+.time1,
+.make,
+.mode,
+.yea,
+.dep,
+.arr {
     font-weight: bold;
 }
-.textos1{
+
+.textos1 {
     color: black;
     font-weight: bold;
     text-align: center;
 }
-.IMAGE{
+
+.IMAGE {
     max-width: 25%;
     height: auto;
     margin-right: 10px;
 }
 
-.tiempo{
+.tiempo {
     margin-left: 4%;
 }
-.sea, .fee{
+
+.sea,
+.fee {
     padding: 5px;
     width: 11.5%;
     border: 0;
 }
-.ride{
+
+.ride {
     margin: 20%;
     margin-top: 20px;
 }
-.rid{
+
+.rid {
     text-align: center;
 }
-fieldset{
+
+fieldset {
     border: 0;
     padding: 10px;
     margin-top: 20px;
-    display: flex; /* Establece el contenedor como flexbox */
-    align-items: center; /* Alinea verticalmente los elementos */
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-left: 13.5%;
 }
 
-.boton1{
+.boton1 {
     border: 0;
     padding: 10px;
     margin-top: auto;
     margin-bottom: auto;
-    display: flex; /* Establece el contenedor como flexbox */
-    align-items: center; /* Alinea verticalmente los elementos */
-    justify-content: space-between;
-}
-
-.or {
-    margin: 10px 0;
-    color: #000000;
-}
-
-main {
-    flex: 1 0 auto;
-}
-
-footer {
-    width: 100%;
-    padding: 10px;
-    background-color: #ffffff;
-    text-align: center;
-    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    bottom: 0;
-    left: 0;
-    font-size: 12px;
-}
-.mapa{
     display: flex;
+    align-items: center;
     justify-content: center;
-}
-
-.mapa{
-    margin-left: 2%;
-}
-a{
     color: blue;
-}
-a:hover{
-    color: blue;
-}
-
-
-footer nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer nav ul li {
-    margin: 0 5px;
-}
-
-footer nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-footer p {
     font-size: 12px;
-    color: #777;
-}
-
-/* Estilos específicos para el formulario de login */
-.login-container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-container label {
-    font-size: 12px;
-    text-align: center;
-    width: auto;
-}
-
-.principal {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 20px;
-}
-
-.cont {
-    background-color: lightgray;
-    width: 100%;
-}
-
-.text {
-    color: black;
-    padding-left: 20px;
-}
-
-.text h1 {
-    font-size: 2em;
-}
-
-.search-input {
-    border-radius: 5px;
-    width: 20%;
-    color: gray;
-}
-
-.imagen img {
-    max-width: 100%;
-    height: auto;
-}
-
-.nav-link {
-    background-color: transparent;
-    padding: 15px 25px;
-    color: gray;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 10px;
-    border: 0px;
-}
-
-.nav-link:hover {
-    background-color: blue;
-    color: white;
-}
-
-.informacion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-}
-
-.informacion h1 {
-    color: gray;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.informacion p {
-    text-align: center;
-    color: lightgray;
-    margin-top: 0;
-}
-.row {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.Days {
-    margin-left: 10px; /* Espacio entre los elementos */
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    
-}
-nav a {
-    text-decoration: none;
-    color: #000;
-}
-/* Nav */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrar elementos en el formulario */
-}
-.ride-info {
-    margin-bottom: 10px;
-}
-/* Main */
-main {
-    padding: 20px;
-    flex: 1 0 auto;
-}
-
-/* Container Rides */
-.container-rides {
-    display: flex;
-    flex-wrap: wrap;
-}
-/* Input */
-input {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.inpMo, .inpMa, .inpYe, .inpLi{
-    width: 100%; 
-    padding: 10px; 
-    box-sizing: border-box; 
-    font-size: 16px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-}
-label {
-    margin-bottom: 5px;
-    color: #333;
-    display: block;
-    font-size: 12px; /* Hacer los labels más pequeños */
-    width: auto;
-    text-align: center; /* Centrar los labels */
-}
-.M, .T, .W, .Th, .F, .S, .Su {
-    margin-left: 10px; /* Espacio entre los elementos */
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-.destacado{
-    font-weight: bold;
-}
-.table, th, td{
-    border: 1px solid lightslategray;
-    border-collapse: collapse;
-}
-.table{
-    border: 1px solid lightslategray; /* Borde para la tabla */
-    border-collapse: collapse; /* Colapsar los bordes de las celdas */
-    border-spacing: 100%; /* Espacio entre las celdas (puedes ajustarlo según tu diseño) */
-    width: 100%; /* Ancho completo de la tabla */
-    margin-left: 1%;
-}
-
-.th, td {
-    padding: 10px;
-    text-align: center;
-}
-
-.th {
-    background-color: lightgray;
-    text-align: center;
-}
-.td{
-    text-align: center;
-}
-.td img {
-    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
-    height: auto; /* Altura automática para mantener la proporción */
-}
-
-.from, .to, .btn,.inpC {
-    display: inline-block; /* Para que los elementos queden en línea */
-    margin-right: 10px; /* Margen derecho entre los elementos */
-    margin: 10px;
-
-}
-.btn{
-    display: block;
-    text-align: center;
-    background-color: blue;
-    color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    margin-left: 10px; /* Espacio entre los elementos */
-    margin-bottom: 5px;
-    margin-right: 20px;
-    margin-left: 15px;
-    margin-top: 5px;
-    width: 10%;
     cursor: pointer;
-}
-.input-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
 }
 
-.input-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px; 
-    margin-right: 20px;
-}
-.buscar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-}
-.buscar h1{
-    color: lightslategray;
-    font-size: 25px;
-    font-style: Arial;
-    text-align: center;
-   
-}.buscar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-}
-.buscar h1{
-    color: lightslategray;
-    font-size: 25px;
-    font-style: Arial;
-    text-align: center;
-   
-}
-
-fieldset {
-    border: 1px solid black;
-    width: 100%; /* Ocupa el 100% del ancho disponible */
-    box-sizing: border-box;
-}
-
-
-.inpC {
-    padding: 5px;
-    font-size: 14px;
-    border: 1px solid black;
-    border-radius: 4px;
-    width: 136%;
-}
-
-.link {
-    text-decoration: none;
-    color: gray;
-}
-
-.link:hover {
-    color: gray;
-}
-
-.p1 {
-    color: gray;
-}
-.text {
-    color: black;
-    padding-left: 20px;
-
-}
-
-.text h1 {
-    font-size: 2em;
-}
-.line{
-    color: lightgray;
-    text-align: center;
-}
-.imagen img {
-    max-width: 100%;
-    height: auto;
-}
-
-.cont{
-    background-color: lightgray;
-}
-.user-icon {
-    position: relative;
-    cursor: pointer;
-}
-
-.toggle-options {
-    display: none;
-}
-
-.opciones {
-    position: absolute;
-    right: 27.7%;
-    background-color: white;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s ease;
-}
-
-.toggle-options:checked ~ .opciones {
-    visibility: visible;
-    opacity: 1;
-}
-
-.opciones button {
-    display: block;
-    margin-bottom: 0;
-    cursor: pointer;
-}
-.Info{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 20px;
-}
-.Botones{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: blue;
-    color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 15px;
-    margin-right: 7.3%;
-    width: 100%;
-    line-height: 5%;
-    cursor: pointer;
-}
-.textos{
-    color:gray;
-    text-align: center;
-}
-.footer {
-    background-color: lightgray;
-    color: gray;
-    padding: 10px;
-    text-align: center;
-    position: block;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer img {
-    max-width: 20px;
-    height: auto;
-    margin-right: 10px;
+.boton1:hover {
+    background-color: #f0f0f0;
 }
