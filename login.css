@@ -43,7 +43,7 @@ body {
 }
 
 .boton .btn1 {
-    background-image: url('image/google.png');
+    background-image: url('google.png');
     background-size: 8%;
     background-repeat: no-repeat;
     background-position: left;
