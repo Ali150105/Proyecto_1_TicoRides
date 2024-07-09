@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Alison Alfaro Arias">
-    <title> AVENTONES- NEWRIDE</title>
+    <title> AVENTONES- EDITDRIVE</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
@@ -39,85 +38,92 @@
             </div>
         </div>
     </section>
-    <section class="ride">
-        <div class="rid">
-            <h1 class="textos"> New Ride </h1>
+    <section class="Edicion">
+        <div class="editar">
+            <h1> Edit Driver </h1>
             <p class="line">_____________________</p>
             <div class="input-container">
                 <div class="input-group">
-                    <p class="dep"> Departure from </p>
-                    <input type="text" class="inp">
+                    <div class="title">First Name</div>
+                    <input type="text" class="inpt-nombre" placeholder="Alison">
                 </div>
                 <div class="input-group">
-                    <p class="arr"> Arrive To</p>
-                    <input type="text" class="inp">
+                    <div class="title">Last Name</div>
+                    <input type="text" class="inpt-apellido" placeholder="Alfaro">
                 </div>
             </div>
-            <p class="day"> Days </p>
-            <div class="input-container">
-                <input type="checkbox" class="M">
-                <p>Mon</p>
-                <input type="checkbox" class="T">
-                <p>Tue</p>
-                <input type="checkbox" class="W">
-                <p>Wed</p>
-                <input type="checkbox" class="Th">
-                <p>Thu</p>
-                <input type="checkbox" class="F">
-                <p>Fri</p>
-                <input type="checkbox" class="S">
-                <p>Sat</p>
-                <input type="checkbox" class="Su">
-                <p>Sun</p>
-            </div>
+
+            <div class="id1"> Identification number </div>
+            <input type="text" class="id">&nbsp;
+            <div class="nac"> Birth date </div>
+            <input type="text" class="inpNac">&nbsp;
+            <div class="email"> Email </div>
+            <input type="text" class="inpE" placeholder="anoelia1501@gmail.com">&nbsp;
+
             <div class="input-container">
                 <div class="input-group">
-                    <p class="time1"> Time </p>
-                    <select class="time">
-                        <option value="SC" disabled selected>10:00 am</option>
-                        <option value="LF">11:00 am</option>
-                        <option value="AN">1:00 pm</option>
+                    <div class="pass"> Password </div>
+                    <input type="password" class="inpP">
+                </div>
+                <div class="input-group">
+                    <div class="pass"> Repeat Password </div>
+                    <input type="password" class="inpP">
+                </div>
+            </div>
+
+            <div class="address"> Address </div>
+            <input type="text" class="inpA" placeholder="2km sur">
+
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="country"> Country </div>
+                    <select class="inpC">
+                        <option value="----" disabled selected>Costa Rica</option>
+                        <option value="MX">México</option>
+                        <option value="PA">Panama</option>
+                        <option value="CL">Colombia</option>
+                        <option value="NC">Nicaragua</option>
                     </select>
                 </div>
                 <div class="input-group">
-                    <p class="sa">Seats</p>
-                    <input type="number" class="sea" value="2">
-                </div>
-                <div class="input-group">
-                    <p class="fe"> Fee </p>
-                    <input type="number" class="fee" value="15">
+                    <div class="country"> State </div>
+                    <input type="text" class="inpC" placeholder="Alajuela">
                 </div>
             </div>
-            <div>
-                <p class="V"> Vehicle Details</p>
-                <fieldset class="informacion">
-                    <div class="input-container">
-                        <div class="input-group">
-                            <p class="make"> Make </p>
-                            <select class="inpT">
-                                <option value="SC" disabled selected>Nissan</option>
-                                <option value="LF">Toyota</option>
-                                <option value="AN">Jeep</option>
-                            </select>
-                        </div>
-                        <div class="input-group">
-                            <p class="models"> Model </p>
-                            <input type="text" class="model" placeholder="Car Model">
-                        </div>
-                        <div class="input-group">
-                            <p class="years"> Year </p>
-                            <input type="number" id="anio" class="year" name="anio" min="1900" max="2100" step="1"
-                                value="2020">
-                        </div>
-                    </div>
-                </fieldset>
-                <div class="botones">
-                    <a href="#" onclick="window.close()" class="nva"> Cancel </a>&nbsp;&nbsp;
-                    <button class="nvs"> Create </button>
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="city"> City </div>
+                    <input type="text" class="inpCi" placeholder="Quesada">
+                </div>
+                <div class="input-group">
+                    <div class="city"> Phone number </div>
+                    <input type="text" class="inpCi">
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="marca"> Brand of the vehicle </div>
+                    <input type="text" class="inpMa">
+                </div>
+                <div class="input-group">
+                    <div class="modelo"> Model of the vehicle </div>
+                    <input type="text" class="inpMo">
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="input-group">
+                    <div class="año"> Year of the vehicle </div>
+                    <input type="text" class="inpYe">
+                </div>
+                <div class="input-group">
+                    <div class="licencia"> License plate number </div>
+                    <input type="text" class="inpLi">
                 </div>
             </div>
         </div>
     </section>
+    <a href="#" onclick="window.close()" class="link"> Cancel </a>&nbsp;&nbsp;
+    <button class="btn"> Save </button>
     <div class="container">
         <div class="row">
             <nav>

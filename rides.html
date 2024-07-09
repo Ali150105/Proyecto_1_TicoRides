@@ -1,90 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aventones - My Rides</title>
+    <meta name="viewport" content="width=device-width">
+    <title> TicoRides</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo-container">
-                <img src="logo.png" alt="Aventones" class="logo">
-                <h1>Aventones</h1>
-            </div>
-            <nav class="nav">
-                <a href="home.html">Home</a>
-                <a href="rides.html" class="active">Rides</a>
-                <a href="Booking.html">Bookings</a>
-                <div class="search">
-                    <input type="text" placeholder="Search..." class="search-input">
-                    <button class="user-icon"></button>
-                </div>
-            </nav>
+    <section class="principal">
+        <div class="imagen">
+            <img src="logo.png" alt="logo" style="width: 100px;">
         </div>
-    </header>
-    <main class="main">
+        <div class="text">
+            <h1>AVENTONES</h1>
+        </div>
+    </section>
+    <section class="principal">
         <div class="container">
-            <h2>My rides</h2>
-            <button class="new-ride-btn">New Ride</button>
+            <div class="row">
+                <nav class="cont">
+                    <a href="home.html" class="nav-link">Home </a>&nbsp;&nbsp;
+                    <a href="rides.html" class="nav-link">Rides </a>&nbsp;&nbsp;
+                    <a href="Booking.html" class="nav-link">Bookings </a>&nbsp;&nbsp;
+                    <input type="text" class="search-input" placeholder="Search...">&nbsp;&nbsp;
+                    <label for="toggle-options" class="user-icon">
+                        <img src="user.png" width="25" alt="user_icon">
+                    </label>
+                    <input type="checkbox" id="toggle-options" class="toggle-options">
+                    <div class="opciones">
+                        <button onclick="window.location.href='login.html'" class="boton"> Logout </button>
+                        <button onclick="window.location.href='settings.html'" class="boton"> Settings </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="informacion">
+        <div class="inf">
+            <h1> My Rides </h1>
+            <p>________________</p>
+            <button onclick="window.location.href='newride.html'" class="button">New ride</button>
             <table class="table">
-                <thead>
-                    <tr>
-                        <th>From</th>
-                        <th>To</th>
-                        <th>Seats</th>
-                        <th>Car</th>
-                        <th>Fee</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="#">Quesada</a></td>
-                        <td>Alajuela</td>
-                        <td>2</td>
-                        <td>Nissan Pathfinder 2015</td>
-                        <td>$5</td>
-                        <td><a href="edit_ride.html">Edit</a> | <a href="#">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Quesada</a></td>
-                        <td>Naranjo</td>
-                        <td>1</td>
-                        <td>Toyota Corolla 2020</td>
-                        <td>$10</td>
-                        <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Aguas Zarcas</a></td>
-                        <td>Naranjo</td>
-                        <td>1</td>
-                        <td>Ford Festiva 1990</td>
-                        <td>--</td>
-                        <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
-                    </tr>
-                </tbody>
+                <tr>
+                    <th class="th">From</th>
+                    <th class="th">To</th>
+                    <th class="th">Seats</th>
+                    <th class="th">Car</th>
+                    <th class="th">Fee</th>
+                    <th class="th">Actions</th>
+                </tr>
+                <tr>
+                    <td class="td"><a href="#" class="SC">Quesada</a></td>
+                    <td class="td">Alajuela</td>
+                    <td class="td">2</td>
+                    <td class="td">Nissan Pathfinder 2015</td>
+                    <td class="td">$5</td>
+                    <td class="td"><a href="edit_ride.html" class="Req">Edit | Delete</a></td>
+                </tr>
+                <tr>
+                    <td class="td"><a href="#" class="SC">Quesada</a></td>
+                    <td class="td">Naranjo</td>
+                    <td class="td">1</td>
+                    <td class="td">Toyota Corolla 2020</td>
+                    <td class="td">$10</td>
+                    <td class="td"><a href="edit_ride.html" class="Req">Edit | Delete</a></td>
+                </tr>
+                <tr>
+                    <td class="td"><a href="#" class="SC">Aguas Zarcas</a></td>
+                    <td class="td">Naranjo</td>
+                    <td class="td">1</td>
+                    <td class="td">Ford Festiva 1990</td>
+                    <td class="td">--</td>
+                    <td class="td"><a href="edit_ride.html" class="Req">Edit | Delete</a></td>
+                </tr>
             </table>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
+    </section>
+    <div class="container">
+        <div class="row">
             <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="rides.html">Rides</a></li>
-                    <li><a href="Booking.html">Bookings</a></li>
-                    <li><a href="settings.html">Settings</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="register.html">Register</a></li>
-                </ul>
+                <p class="p1">
+                    __________________________________________________________________________________________________________________________________________________________
+                </p>
+                <a href="home.html" class="link">Home |</a>&nbsp;&nbsp;
+                <a href="rides.html" class="link">Rides |</a>&nbsp;&nbsp;
+                <a href="Booking.html" class="link">Bookings |</a>&nbsp;&nbsp;
+                <a href="settings.html" class="link">Settings |</a>&nbsp;&nbsp;
+                <a href="login.html" class="link">Login |</a>&nbsp;&nbsp;
+                <a href="register.html" class="link">Register </a>&nbsp;&nbsp;
             </nav>
-            <p>&copy; Aventones.com</p>
         </div>
-    </footer>
+    </div>
+    <div class="footer">
+        <p>&copy; Aventones.com</p>
+    </div>
 </body>
 
 </html>

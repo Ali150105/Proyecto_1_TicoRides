@@ -315,3 +315,1960 @@ footer p {
     font-size: 12px;
     color: #777;
 }
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+.cont{
+    background-color: lightgray;
+    width: 100%;
+}
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.search-input{
+    border-radius: 5px;
+    width: 20%;
+    color: gray;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 28%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.informacion h1{
+    color: gray;
+    text-align: center;
+    margin-bottom: 0;
+}
+.informacion p{
+    text-align: center;
+    color: lightgray;
+    margin-top: 0;
+}
+.table, th, td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+.table{
+    border: 1px solid lightgray; /* Borde para la tabla */
+    border-collapse: collapse; /* Colapsar los bordes de las celdas */
+    border-spacing: 100%; /* Espacio entre las celdas (puedes ajustarlo según tu diseño) */
+    width: 100%;
+    margin-left: 1%;
+}
+.th, td{
+    padding: 10px;
+    text-align: center;
+}
+.th{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.td img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.p1{
+    color: lightgray;
+}
+.footer {
+    background-color: lightgray;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Edicion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.Edicion h1 {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+.line{
+    color: lightgray;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 27.7%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: gray;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.inpt-nombre,
+.inpt-apellido,
+.inpP,
+.inpC,
+.inpCi,
+.inpA,
+.inpE,
+.id,
+.inpNac {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.inpMo, .inpMa, .inpYe, .inpLi{
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.buton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 25%;
+    background-color: white;
+    padding: 20px;
+}
+
+.link {
+    color: blue; /* Color del texto normal */
+    margin-left: 33.5%;
+    text-decoration: underline; /* Subrayado por defecto */
+}
+
+.link:hover {
+    color: blue;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-left: 14.5%;
+    display: row;
+    background-color: blue;
+    color: white;
+    border: solid 1px black;
+    border-radius: 2px;
+    width: 13%;
+    cursor: pointer;
+}
+.p1{
+    color:lightgray;
+}
+
+.footer {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.search-input{
+    border-radius: 5px;
+    width: 20%;
+    color: gray;
+}
+.textos{
+    color:gray;
+    text-align: center;
+}
+.line{
+    color: gray;
+    text-align: center;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.dep, .arr, .day{
+    margin-bottom: 10px;
+}
+.day{
+    text-align: left;
+    margin-left: 5%;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 27.7%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.ride{
+    margin: 28%;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.time{
+    border: 1px solid lightgray;
+    width: 165%;
+    padding: 10px;
+}
+.inp{
+    padding: 12px;
+    width: 147%;
+    margin-top: 20px;
+}
+.sa{
+    text-align: center;
+    margin-left: 75%;
+}
+.sea{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid black;
+    width: 59%;
+    margin-left: 75%;
+
+}
+.fee{
+    padding: 5px;
+    border: 1px solid black;
+    width: 52%;
+    margin-left: 100%;
+
+}
+
+.fe{
+    margin-left: 100%;
+}
+
+.inpT{
+    padding: 5px;
+    border: 1px solid lightgray;
+    width: 158%;
+    margin-right: 10px;
+}
+.models, .years,.model,.year{
+    margin-left: 60%;
+    margin-right: 50%;
+}
+.models,.model{
+    align-content: center;
+}
+.year,.years{
+    align-content: right;
+}
+.model{
+    padding: 5px;
+    border: 1px solid black;
+    width: 94%;
+    margin-right: 10px;
+}
+.year{
+    padding: 5px;
+    border: 1px solid black;
+    width: 107%;
+    margin-left: 150%;
+}
+.years{
+    margin-left: 150%;
+}
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-bottom: 15px; 
+    margin-left: 5%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+}
+.informacion{
+    border: 1px solid lightgray;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 108%;
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+.M, .T, .W, .Th, .F, .S, .Su {
+    margin-right: 5px; /* Espacio entre los checkboxes */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.botones{
+    display: flex;
+    align-items: center; 
+}
+.nva{
+    color:blue;
+    margin-left:5%;
+    cursor: pointer;
+}
+.nva:hover{
+    color: blue;
+}
+.nvs{
+    display: row;
+    justify-content: center;
+    width: 34%;
+    margin-left: 90.5%;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+
+}
+.line{
+    color: lightgray;
+}
+.V{
+    text-align: left;
+    margin-left:5%;
+}
+.p1{
+    color: lightgray;
+}
+.footer {
+    background-color: lightgray;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.line{
+    color: lightgray;
+    text-align: center;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 27.7%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.Edicion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Edicion h1 {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: gray;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.inpt-nombre,
+.inpt-apellido,
+.inpP,
+.inpC,
+.inpCi,
+.inpA,
+.inpE,
+.id,
+.inpNac {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.buton {
+    display: flex;
+    align-items: center; 
+}
+
+.link {
+    color: blue; /* Color del texto normal */
+    margin-left: 33.5%;
+    text-decoration: underline; /* Subrayado por defecto */
+}
+
+.link:hover {
+    color: blue;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-left: 14.5%;
+    display: row;
+    background-color: blue;
+    color: white;
+    border: solid 1px black;
+    border-radius: 2px;
+    width: 13.50%;
+    cursor: pointer;
+}
+.p1{
+    color: lightgray;
+}
+.footer {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.search-input{
+    border-radius: 5px;
+    width: 20%;
+    color: gray;
+}
+.textos{
+    color:gray;
+    text-align: center;
+}
+.line{
+    color: gray;
+    text-align: center;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.dep, .arr, .day{
+    margin-bottom: 10px;
+}
+.day{
+    text-align: left;
+    margin-left: 5%;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+.ride{
+    margin: 28%;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 27.7%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.time{
+    border: 1px solid lightgray;
+    width: 165%;
+    padding: 10px;
+}
+.inp{
+    padding: 12px;
+    width: 147%;
+    margin-top: 20px;
+}
+.sa{
+    text-align: center;
+    margin-left: 75%;
+}
+.sea{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid black;
+    width: 59%;
+    margin-left: 75%;
+
+}
+.fee{
+    padding: 5px;
+    border: 1px solid black;
+    width: 52%;
+    margin-left: 100%;
+
+}
+
+.fe{
+    margin-left: 100%;
+}
+
+.inpT{
+    padding: 5px;
+    border: 1px solid lightgray;
+    width: 158%;
+    margin-right: 10px;
+}
+.models, .years,.model,.year{
+    margin-left: 60%;
+    margin-right: 50%;
+}
+.models,.model{
+    align-content: center;
+}
+.year,.years{
+    align-content: right;
+}
+.model{
+    padding: 5px;
+    border: 1px solid black;
+    width: 94%;
+    margin-right: 10px;
+}
+.year{
+    padding: 5px;
+    border: 1px solid black;
+    width: 107%;
+    margin-left: 150%;
+}
+.years{
+    margin-left: 150%;
+}
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-bottom: 15px; 
+    margin-left: 5%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+}
+.informacion{
+    border: 1px solid lightgray;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 108%;
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+.M, .T, .W, .Th, .F, .S, .Su {
+    margin-right: 5px; /* Espacio entre los checkboxes */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.botones{
+    display: flex;
+    align-items: center; 
+}
+.nva{
+    color:blue;
+    margin-left:5%;
+    cursor: pointer;
+}
+.nva:hover{
+    color: blue;
+}
+.nvs{
+    display: row;
+    justify-content: center;
+    width: 34%;
+    margin-left: 90.5%;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+
+}
+.line{
+    color: lightgray;
+}
+.V{
+    text-align: left;
+    margin-left:5%;
+}
+.p1{
+    color: lightgray;
+}
+.footer {
+    background-color: lightgray;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.search-input{
+    border-radius: 5px;
+    width: 20%;
+    color: gray;
+}
+.textos{
+    color:gray;
+    text-align: center;
+}
+.textos1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.IMAGE{
+    max-width: 25%;
+    height: auto;
+    margin-right: 10px;
+}
+.line{
+    color: gray;
+    text-align: center;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.dep, .arr{
+    margin-bottom: 10px;
+}
+.Days{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    
+}
+.sa,.fe,.time1,.make,.mode,.yea,.dep,.arr{
+    font-weight: bold;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 28%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.ride{
+    margin: 20%;
+    margin-top: 20px;
+}
+.rid{
+    text-align: center;
+}
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+    margin-right: 20px;
+}
+.inp{
+    padding: 10px;
+    height: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 0;
+}
+.time{
+    border: 0;
+    width: 15%;
+}
+.tiempo{
+    margin-left: 4%;
+}
+.sea, .fee{
+    padding: 5px;
+    width: 11.5%;
+    border: 0;
+}
+.inpT{
+    padding: 5px;
+    border: 0;
+    width: 16.5%;
+}
+.model{
+    padding: 5px;
+    border: 0;
+    width: 26%;
+}
+.year{
+    padding: 5px;
+    border: 0;
+    width: 11.5%;
+}
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+fieldset{
+    border: 0;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between;
+    margin-left: 13.5%;
+}
+.informacion{
+    border: 1px solid lightgray;
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+
+.boton1{
+    border: 0;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between;
+}
+.nva{
+    color:blue;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.nva:hover{
+    color: blue;
+}
+.nvs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 7.3%;
+    width: 23.5%;
+    cursor: pointer;
+
+}
+.V{
+    text-align: left;
+    margin-left: 2.5%;
+}
+.p1{
+    color:lightgray;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    
+}
+.cont{
+    background-color: lightgray;
+}
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.search-input{
+    border-radius: 5px;
+    width: 20%;
+    color: gray;
+}
+.user_icon{
+    vertical-align: middle;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 28.5%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.informacion h1{
+    color: gray;
+    text-align: center;
+    margin-bottom: 0;
+}
+.informacion p{
+    text-align: center;
+    color: lightgray;
+    margin-top: 0;
+}
+.button{
+    display: block;
+    width: 32%;
+    background-color: blue;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+    float: right;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.table, th, td{
+    padding: 500%;
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+}
+.table{
+    margin: 0;
+    width: 100%;
+    align-content: center;
+}
+.th, td{
+    padding: 10px;
+    text-align: center;
+}
+.th{
+    background-color: lightgray;
+    text-align: center;
+}
+.td img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+.p1{
+    color: lightgray;
+}
+.footer {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.search-input{
+    border-radius: 5px;
+    width: 20%;
+    color: gray;
+}
+.textos{
+    color:gray;
+    text-align: center;
+}
+.line{
+    color: gray;
+    text-align: center;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 28%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+.Info{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+.Botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 7.3%;
+    width: 100%;
+    line-height: 5%;
+    cursor: pointer;
+}
+.p1{
+    color:lightgray;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.text {
+    color: black;
+    padding-left: 20px;
+
+}
+
+.text h1 {
+    font-size: 2em;
+}
+.line{
+    color: lightgray;
+    text-align: center;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+.cont{
+    background-color: lightgray;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-options {
+    display: none;
+}
+
+.opciones {
+    position: absolute;
+    right: 27.7%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+}
+
+.toggle-options:checked ~ .opciones {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opciones button {
+    display: block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.boton{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 12px 42px;
+}
+.boton:hover{
+    background-color: gray;
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.buscar h1{
+    color: lightslategray;
+    font-size: 25px;
+    font-style: Arial;
+    text-align: center;
+   
+}
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+    margin-right: 20px;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px; /* Espacio entre los elementos */
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 10%;
+    cursor: pointer;
+}
+fieldset {
+    border: 1px solid black;
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+    box-sizing: border-box;
+}
+
+.from, .to, .btn,.inpC {
+    display: inline-block; /* Para que los elementos queden en línea */
+    margin-right: 10px; /* Margen derecho entre los elementos */
+    margin: 10px;
+
+}
+
+.inpC {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 136%;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Days {
+    margin-left: 10px; /* Espacio entre los elementos */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.M, .T, .W, .Th, .F, .S, .Su {
+    margin-left: 10px; /* Espacio entre los elementos */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.destacado{
+    font-weight: bold;
+}
+.table, th, td{
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+}
+.table{
+    border: 1px solid lightslategray; /* Borde para la tabla */
+    border-collapse: collapse; /* Colapsar los bordes de las celdas */
+    border-spacing: 100%; /* Espacio entre las celdas (puedes ajustarlo según tu diseño) */
+    width: 100%; /* Ancho completo de la tabla */
+    margin-left: 1%;
+}
+.th, td{
+    border: 1px solid lightslategray; /* Borde para las celdas */
+    padding: 8px; /* Espacio interno dentro de las celdas */
+}
+.th{
+    background-color: lightgray;
+    text-align: center;
+}
+.td{
+    text-align: center;
+}
+
+
+.td img {
+    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+.mapa{
+    margin-left: 2%;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+.p1{
+    color: lightgray;
+}
+.footer {
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
