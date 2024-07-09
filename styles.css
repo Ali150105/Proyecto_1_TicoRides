@@ -7,85 +7,10 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-}
-
-/* Header */
-header {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-header img {
-    width: 50px;
-    height: 50px;
-}
-
-/* Nav */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-sizing: border-box;
 }
 
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #000;
-}
-
-/* Main */
-main {
-    padding: 20px;
-    flex: 1 0 auto;
-}
-
-/* Titles */
-h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
-    font-weight: normal;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-}
-
-/* Container Rides */
-.container-rides {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.ride {
-    width: 30%;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-.ride-info {
-    margin-bottom: 10px;
-}
-
-/* Container & Login Container */
 .container, .login-container {
     background-color: #ffffff;
     padding: 20px;
@@ -96,11 +21,11 @@ h2 {
     text-align: center;
 }
 
-.login-container {
-    border: 1px solid #2739da;
+.header {
+    display: flex;
+    flex-direction: column;
 }
 
-/* Register */
 .register {
     margin-top: 15px;
     color: #000000;
@@ -111,7 +36,6 @@ h2 {
     text-decoration: none;
 }
 
-/* Buttons */
 button[type="submit"], .boton {
     background-color: #444444;
     color: white;
@@ -137,7 +61,10 @@ button[type="submit"]:active, .boton:active {
     transform: translateY(2px);
 }
 
-/* Logo Container */
+.login-container {
+    border: 1px solid #2739da;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -165,11 +92,22 @@ button[type="submit"]:active, .boton:active {
     letter-spacing: 0.1em;
 }
 
-/* Form */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrar elementos en el formulario */
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
 }
 
 .form-row {
@@ -215,7 +153,6 @@ form {
     outline: none;
 }
 
-/* Form Links */
 .form-links {
     display: flex;
     justify-content: space-between;
@@ -231,7 +168,6 @@ form {
     text-decoration: none;
 }
 
-/* Buttons (Other) */
 .btn1 {
     align-items: center;
     justify-content: center;
@@ -249,14 +185,12 @@ form {
     background-color: #f5f5f5;
 }
 
-/* Google Logo */
 .google-logo {
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
 
-/* Input */
 input {
     padding: 10px;
     margin-bottom: 15px;
@@ -264,23 +198,15 @@ input {
     border-radius: 5px;
 }
 
-/* Or */
 .or {
     margin: 10px 0;
     color: #000000;
 }
 
-/* Label */
-label {
-    margin-bottom: 5px;
-    color: #333;
-    display: block;
-    font-size: 12px; /* Hacer los labels más pequeños */
-    width: auto;
-    text-align: center; /* Centrar los labels */
+main {
+    flex: 1 0 auto;
 }
 
-/* Footer */
 footer {
     width: 100%;
     padding: 10px;
@@ -314,4 +240,141 @@ footer nav ul li a {
 footer p {
     font-size: 12px;
     color: #777;
+}
+
+/* Estilos específicos para el formulario de login */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container label {
+    font-size: 12px;
+    text-align: center;
+    width: auto;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.cont {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.text {
+    color: black;
+    padding-left: 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+
+.search-input {
+    border-radius: 5px;
+    width: 20%;
+    color: gray;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.informacion h1 {
+    color: gray;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.informacion p {
+    text-align: center;
+    color: lightgray;
+    margin-top: 0;
+}
+
+.table, th, td {
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+}
+
+.table {
+    margin: 0;
+    align-content: center;
+}
+
+.th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.th {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.td img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+
+.p1 {
+    color: gray;
+}
+
+.footer {
+    background-color: lightgray;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
 }
