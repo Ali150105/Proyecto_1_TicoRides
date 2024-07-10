@@ -3,101 +3,19 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
-.principal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-}
-
-.text {
-    color: black;
-    padding-left: 20px;
-}
-
-.text h1 {
-    font-size: 2em;
-}
-
-.imagen img {
-    max-width: 100%;
-    height: auto;
-}
-
-.line {
-    color: lightgray;
-    text-align: center;
-}
-
-.cont {
-    background-color: lightgray;
-}
-
-.user-icon {
-    position: relative;
-    cursor: pointer;
-}
-
-.toggle-options {
-    display: none;
-}
-
-.opciones {
-    position: absolute;
-    right: 27.7%;
-    background-color: white;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s ease;
-}
-
-.toggle-options:checked ~ .opciones {
-    visibility: visible;
-    opacity: 1;
-}
-
-.opciones button {
-    display: block;
-    margin-bottom: 0;
-    cursor: pointer;
-}
-
-.boton {
-    font-size: 12px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+.container {
     width: 100%;
-    padding: 12px 42px;
-}
-
-.boton:hover {
-    background-color: gray;
-}
-
-.Edicion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
     padding: 20px;
 }
-
-.row {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.cont{
+    background-color: lightgray;
+    width: 100%;
 }
-
-.Edicion h1 {
-    font-size: 20px;
-    text-align: center;
-    color: gray;
-}
-
 .nav-link {
     background-color: transparent;
     padding: 15px 25px;
@@ -107,116 +25,185 @@ body {
     border-radius: 10px;
     border: 0px;
 }
-
-.nav-link:hover {
-    background-color: blue;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: gray;
-}
-
-a:hover {
-    color: gray;
-}
-
-.input-container {
+.row{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
-.input-group {
+.header-logo {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 40px;
     margin-right: 10px;
 }
 
-.buton {
+.header-nav {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    width: 100%;
+    align-items: center;
 }
 
-.boton,
-.btn {
-    font-size: 12px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    width: fit-content; /* Ajusta el ancho del botón */
-    padding: 12px 42px;
+.header-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-nav a:hover {
+    color: blue;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: none;
+    padding: 5px 10px;
     cursor: pointer;
+}
+
+.user-menu {
+    position: relative;
+}
+
+.user-menu button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.user-options {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+.user-menu:hover .user-options {
+    display: block;
+}
+
+.user-options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.boton:hover,
-.btn:hover {
-    background-color: gray;
+.form-group {
+    margin-bottom: 15px;
 }
 
-
-.title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color: black;
+.form-group label {
+    display: block;
     margin-bottom: 5px;
+    color: #333;
 }
 
-.inpt-nombre,
-.inpt-apellido,
-.inpP,
-.inpC,
-.inpCi,
-.inpA,
-.inpE,
-.id,
-.inpNac {
+.form-group input, 
+.form-group select, 
+.form-group textarea {
     width: 100%;
     padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     box-sizing: border-box;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
-.buton {
+.checkbox-group {
     display: flex;
-    align-items: center; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 
-.link {
-    text-decoration: none;
-    color: gray;
+.checkbox-group label {
+    display: flex;
+    align-items: center;
 }
 
-.link:hover {
-    color: gray;
+.checkbox-group input {
+    margin-right: 5px;
 }
-.btn {
-    font-size: 18px;
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.button-group button, .button-group .cancel-btn {
     padding: 10px 20px;
-    margin-left: 14.5%;
-    display: row;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-group .save-btn {
     background-color: blue;
     color: white;
-    border: solid 1px black;
-    border-radius: 2px;
-    width: 13.50%;
-    cursor: pointer;
 }
 
-.p1 {
-    color: lightgray;
+.button-group .cancel-btn {
+    background-color: lightgray;
+    color: black;
 }
 
 .footer {
-    background-color: white;
+    background-color: white; 
     padding: 10px;
     text-align: center;
     color: gray;
@@ -226,10 +213,10 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.footer img {
-    max-width: 20px;
+  }
+  
+  .footer img {
+    max-width: 20px; 
     height: auto;
-    margin-right: 10px;
-}
+    margin-right: 10px; 
+  }
