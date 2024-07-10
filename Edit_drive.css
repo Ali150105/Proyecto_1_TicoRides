@@ -3,6 +3,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
 }
 
 .principal {
@@ -93,6 +98,7 @@ body {
     padding: 12px 42px;
     cursor: pointer;
     text-align: center;
+    margin: 5px; /* Espacio entre los botones */
 }
 
 .boton:hover {
@@ -201,9 +207,6 @@ a:hover {
 .btn {
     font-size: 18px;
     padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: blue;
     color: white;
     border: solid 1px black;
