@@ -4,97 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="autor" content="Alison Alfaro Arias">
-    <title>AVENTONES - EDIT RIDE</title>
+    <title> AVENTONES-EDIT RIDE</title>
     <link rel="stylesheet" href="Edit_ride.css">
 </head>
 
 <body>
-    <header>
-        <div class="header-logo">
-            <img src="logo.png" alt="Aventones Logo">
-            <span>AVENTONES</span>
+    <section class="principal">
+        <div class="imagen">
+            <img src="logo.png" alt="logo" style="width: 100px;">
         </div>
-        <div class="header-nav">
-            <a href="home.html">Home</a>
-            <a href="rides.html">Rides</a>
-            <a href="Booking.html">Bookings</a>
+        <div class="text">
+            <h1>AVENTONES</h1>
         </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Search...">
-            <button>🔍</button>
-        </div>
-        <div class="user-menu">
-            <button>👤</button>
-            <div class="user-options">
-                <button>Settings</button>
-                <button>Logout</button>
+    </section>
+    <section class="principal">
+        <div class="container">
+            <div class="row">
+                <nav class="cont">
+                    <a href="home.html" class="nav-link">Home </a>&nbsp;&nbsp;
+                    <a href="rides.html" class="nav-link">Rides </a>&nbsp;&nbsp;
+                    <a href="Booking.html" class="nav-link">Bookings </a>&nbsp;&nbsp;
+                    <input type="text" class="search-input" placeholder="Search...">&nbsp;&nbsp;
+                    <label for="toggle-options" class="user-icon">
+                        <img src="user.png" width="25" alt="user_icon">
+                    </label>
+                    <input type="checkbox" id="toggle-options" class="toggle-options">
+                    <div class="opciones">
+                        <button onclick="window.location.href='login.html'" class="boton"> Logout </button>
+                        <button onclick="window.location.href='settings.html'" class="boton"> Settings </button>
+                    </div>
+                </nav>
             </div>
         </div>
-    </header>
-    <div class="container">
-        <div class="form-container">
-            <h1>Edit Ride</h1>
-            <form>
-                <div class="form-group">
-                    <label for="departure">Departure from</label>
-                    <input type="text" id="departure" name="departure" value="Quesada">
+    </section>
+    <section class="ride">
+        <div class="rid">
+            <h1 class="textos"> Edit Ride </h1>
+            <p class="line">_____________________</p>
+            <div class="input-container">
+                <div class="input-group">
+                    <p class="dep"> Departure from </p>
+                    <input type="text" class="inp" placeholder="Quesada">
                 </div>
-                <div class="form-group">
-                    <label for="arrival">Arrive To</label>
-                    <input type="text" id="arrival" name="arrival" value="Zarcero">
+                <div class="input-group">
+                    <p class="arr"> Arrive To</p>
+                    <input type="text" class="inp" placeholder="Zarcero">
                 </div>
-                <div class="checkbox-group">
-                    <label><input type="checkbox" name="days" value="mon" checked> Mon</label>
-                    <label><input type="checkbox" name="days" value="tue" checked> Tue</label>
-                    <label><input type="checkbox" name="days" value="wed" checked> Wed</label>
-                    <label><input type="checkbox" name="days" value="thu" checked> Thu</label>
-                    <label><input type="checkbox" name="days" value="fri" checked> Fri</label>
-                    <label><input type="checkbox" name="days" value="sat"> Sat</label>
-                    <label><input type="checkbox" name="days" value="sun"> Sun</label>
-                </div>
-                <div class="form-group">
-                    <label for="time">Time</label>
-                    <select id="time" name="time">
-                        <option value="10:00am" selected>10:00 am</option>
-                        <option value="11:00am">11:00 am</option>
-                        <option value="1:00pm">1:00 pm</option>
+            </div>
+        </div>
+            <p class="day"> Days </p>
+            <div class="input-container">
+                <input type="checkbox" class="M">
+                <p>Mon</p>
+                <input type="checkbox" class="T">
+                <p>Tue</p>
+                <input type="checkbox" class="W">
+                <p>Wed</p>
+                <input type="checkbox" class="Th">
+                <p>Thu</p>
+                <input type="checkbox" class="F">
+                <p>Fri</p>
+                <input type="checkbox" class="S">
+                <p>Sat</p>
+                <input type="checkbox" class="Su">
+                <p>Sun</p>
+            </div>
+            <div class="input-container">
+                <div class="input-group">
+                    <p class="time1"> Time </p>
+                    <select class="time">
+                        <option value="SC" disabled selected>10:00 am</option>
+                        <option value="LF">11:00 am</option>
+                        <option value="AN">1:00 pm</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <label for="seats">Seats</label>
-                    <input type="number" id="seats" name="seats" value="2">
+                <div class="input-group">
+                    <p class="sa">Seats</p>
+                    <input type="number" class="sea" value="2">
                 </div>
-                <div class="form-group">
-                    <label for="fee">Fee</label>
-                    <input type="number" id="fee" name="fee" value="15">
+                <div class="input-group">
+                    <p class="fe"> Fee </p>
+                    <input type="number" class="fee" value="15">
                 </div>
-                <fieldset>
-                    <legend>Vehicle Details</legend>
-                    <div class="form-group">
-                        <label for="make">Make</label>
-                        <select id="make" name="make">
-                            <option value="nissan" selected>Nissan</option>
-                            <option value="toyota">Toyota</option>
-                            <option value="ford">Ford</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="model">Model</label>
-                        <input type="text" id="model" name="model" value="Pathfinder">
-                    </div>
-                    <div class="form-group">
-                        <label for="year">Year</label>
-                        <input type="number" id="year" name="year" value="2015">
+            </div>
+            <div>
+                <p class="V"> Vehicle Details</p>
+                <fieldset class="informacion">
+                    <div class="input-container">
+                        <div class="input-group">
+                            <p class="make"> Make </p>
+                            <select class="inpT">
+                                <option value="SC" disabled selected>Nissan</option>
+                                <option value="LF">Toyota</option>
+                                <option value="AN">Jeep</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <p class="models"> Model </p>
+                            <input type="text" class="model" placeholder="Pathfinder">
+                        </div>
+                        <div class="input-group">
+                            <p class="years"> Year </p>
+                            <input type="number" id="anio" class="year" name="anio" min="1900" max="2100" step="1"
+                                value="2015">
+                        </div>
                     </div>
                 </fieldset>
-                <div class="button-group">
-                    <a href="#" class="cancel-btn">Cancel</a>
-                    <button type="submit" class="save-btn">Save</button>
+                <div class="botones">
+                    <a href="#" onclick="window.close()" class="nva"> Cancel </a>&nbsp;&nbsp;
+                    <button class="nvs"> Save </button>
                 </div>
-            </form>
-        </div>
-    </div>
+            </div>
+    </section>
     <div class="container">
         <div class="row">
             <nav>
