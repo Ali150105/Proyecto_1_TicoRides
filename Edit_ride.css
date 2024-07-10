@@ -177,9 +177,20 @@ header {
 }
 
 .footer {
-    background-color: white;
+    background-color: white; 
     padding: 10px;
     text-align: center;
     color: gray;
-    border-top: 1px solid #e0e0e0;
-}
+    position: block;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer img {
+    max-width: 20px; 
+    height: auto;
+    margin-right: 10px; 
+  }
