@@ -157,11 +157,13 @@ header {
     gap: 10px;
 }
 
-.button-group button {
+.button-group button, .button-group .cancel-btn {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button-group .save-btn {

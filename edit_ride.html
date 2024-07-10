@@ -3,112 +3,100 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" >
+    <meta name="viewport" content="width=device-width">
     <meta name="autor" content="Alison Alfaro Arias">
-    <title> AVENTONES- EDIT RIDE</title>
+    <title>AVENTONES - EDIT RIDE</title>
     <link rel="stylesheet" href="Edit_ride.css">
 </head>
 
 <body>
-    <section class="principal">
-        <div class="imagen">
-            <img src="logo.png" alt="logo" style="width: 100px;">
+    <header>
+        <div class="header-logo">
+            <img src="logo.png" alt="Aventones Logo">
+            <span>AVENTONES</span>
         </div>
-        <div class="text">
-            <h1>AVENTONES</h1>
+        <div class="header-nav">
+            <a href="home.html">Home</a>
+            <a href="rides.html">Rides</a>
+            <a href="Booking.html">Bookings</a>
         </div>
-    </section>
-    <div class="principal">
-        <div class="container">
-            <div class="row">
-                <nav class="cont">
-                    <a href="home.html" class="nav-link">Home </a>&nbsp;&nbsp;
-                    <a href="rides.html" class="nav-link">Rides </a>&nbsp;&nbsp;
-                    <a href="Booking.html" class="nav-link">Bookings </a>&nbsp;&nbsp;
-                    <input type="text" class="search-input" placeholder="Search...">&nbsp;&nbsp;
-                    <label for="toggle-options" class="user-icon">
-                        <img src="user.png" width="25" alt="user_icon">
-                </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+        </div>
+        <div class="user-menu">
+            <button>👤</button>
+            <div class="user-options">
+                <button>Settings</button>
+                <button>Logout</button>
             </div>
         </div>
-    </div>
-    <section class="ride">
-        <div class="rid">
-            <h1 class="textos"> Edit Ride </h1>
-            <p class="line">_____________________</p>
-            <fieldset class="prin">
-                <p class="dep"> Departure from </p>
-                <input type="text" class="inp" placeholder="Quesada">
-                <p class="arr"> Arrive To</p>
-                <input type="text" class="inp" placeholder="Zarcero">
-            </fieldset>
-            <fieldset class="dias">
-                <p class="day"> Days </p>
-                <input type="checkbox" class="M">
-                <p>Mon</p>
-                <input type="checkbox" class="T">
-                <p>Tue</p>
-                <input type="checkbox" class="W">
-                <p>Wed</p>
-                <input type="checkbox" class="Th">
-                <p>Thu</p>
-                <input type="checkbox" class="F">
-                <p>Fri</p>
-                <input type="checkbox" class="S">
-                <p>Sat</p>
-                <input type="checkbox" class="Su">
-                <p>Sun</p>
-            </fieldset>
-            <fieldset class="tiempo">
-                <p class="time"> Time </p>
-                <select class="time">
-                    <option value="SC" disabled selected>10:00 am</option>
-                    <option value="LF">11:00 am</option>
-                    <option value="AN">1:00 pm</option>
-                </select>
-                <p class="sea">Seats</p>
-                <input type="number" class="sea">
-                <p class="fee"> Fee </p>
-                <input type="number" class="fee">
-            </fieldset>
-            <div>
-                <p> Vehicle Details</p>
-                <fieldset class="informacion">
-                    <p> Make </p>
-                    <select class="inpT">
-                        <option value="SC" disabled selected>Nissan</option>
-                        <option value="LF">Toyota</option>
-                        <option value="AN">Jeep</option>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <h1>Edit Ride</h1>
+            <form>
+                <div class="form-group">
+                    <label for="departure">Departure from</label>
+                    <input type="text" id="departure" name="departure" value="Quesada">
+                </div>
+                <div class="form-group">
+                    <label for="arrival">Arrive To</label>
+                    <input type="text" id="arrival" name="arrival" value="Zarcero">
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="days" value="mon" checked> Mon</label>
+                    <label><input type="checkbox" name="days" value="tue" checked> Tue</label>
+                    <label><input type="checkbox" name="days" value="wed" checked> Wed</label>
+                    <label><input type="checkbox" name="days" value="thu" checked> Thu</label>
+                    <label><input type="checkbox" name="days" value="fri" checked> Fri</label>
+                    <label><input type="checkbox" name="days" value="sat"> Sat</label>
+                    <label><input type="checkbox" name="days" value="sun"> Sun</label>
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <select id="time" name="time">
+                        <option value="10:00am" selected>10:00 am</option>
+                        <option value="11:00am">11:00 am</option>
+                        <option value="1:00pm">1:00 pm</option>
                     </select>
-                    <p> Model </p>
-                    <input type="text" class="model" placeholder="Pathfinder">
-                    <p> Year </p>
-                    <input type="number" id="anio" class="year" name="anio" min="2020" max="2100" step="1">
+                </div>
+                <div class="form-group">
+                    <label for="seats">Seats</label>
+                    <input type="number" id="seats" name="seats" value="2">
+                </div>
+                <div class="form-group">
+                    <label for="fee">Fee</label>
+                    <input type="number" id="fee" name="fee" value="15">
+                </div>
+                <fieldset>
+                    <legend>Vehicle Details</legend>
+                    <div class="form-group">
+                        <label for="make">Make</label>
+                        <select id="make" name="make">
+                            <option value="nissan" selected>Nissan</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="ford">Ford</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Model</label>
+                        <input type="text" id="model" name="model" value="Pathfinder">
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="number" id="year" name="year" value="2015">
+                    </div>
                 </fieldset>
-            </div>
-        </div>
-    </section>
-    <div class="boton">
-        <div class="botones">
-            <a href="#" class="nva"> Cancel </a>
-            <button class="nvs"> Save </button>
+                <div class="button-group">
+                    <a href="#" class="cancel-btn">Cancel</a>
+                    <button type="submit" class="save-btn">Save</button>
+                </div>
+            </form>
         </div>
     </div>
-    <br><br>
     <footer class="footer">
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="rides.html">Rides</a></li>
-                    <li><a href="Booking.html">Bookings</a></li>
-                    <li><a href="settings.html">Settings</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="register.html">Register</a></li>
-                </ul>
-            </nav>
-            <p>&copy; Aventones.com</p>
-        </div>
+        <span>&copy; Aventones.com</span>
     </footer>
 </body>
 
