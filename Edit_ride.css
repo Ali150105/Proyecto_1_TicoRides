@@ -12,7 +12,24 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
-
+.cont{
+    background-color: lightgray;
+    width: 100%;
+}
+.nav-link {
+    background-color: transparent;
+    padding: 15px 25px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 header {
     display: flex;
     justify-content: space-between;
