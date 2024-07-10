@@ -30,6 +30,15 @@ body {
     justify-content: center;
     text-align: center;
 }
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
 header {
     display: flex;
     justify-content: space-between;
