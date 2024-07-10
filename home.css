@@ -146,7 +146,7 @@ a:hover {
 .boton,
 .btn {
     font-size: 12px;
-    background-color: white;
+    background-color:  rgb(101, 103, 104);
     color: black;
     border: 1px solid black;
     width: fit-content; /* Ajusta el ancho del botón */
@@ -203,7 +203,7 @@ a:hover {
     padding: 10px 20px;
     margin-left: 14.5%;
     display: row;
-    background-color: blue;
+    background-color:  rgb(101, 103, 104);
     color: white;
     border: solid 1px black;
     border-radius: 2px;

@@ -216,12 +216,12 @@ body {
     align-items: center; 
 }
 .nva{
-    color:blue;
+    color: rgb(101, 103, 104);
     margin-left:5%;
     cursor: pointer;
 }
 .nva:hover{
-    color: blue;
+    color:  rgb(101, 103, 104);
 }
 .nvs{
     display: row;
@@ -230,7 +230,7 @@ body {
     margin-left: 90.5%;
     align-items: center;
     text-align: center;
-    background-color: blue;
+    background-color:  rgb(101, 103, 104);
     color: white;
     border: 1px solid black;
     border-radius: 5px;

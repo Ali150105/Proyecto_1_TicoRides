@@ -207,7 +207,7 @@ a:hover {
 .btn {
     font-size: 18px;
     padding: 10px 20px;
-    background-color: blue;
+    background-color:  rgb(101, 103, 104);
     color: white;
     border: solid 1px black;
     border-radius: 2px;
